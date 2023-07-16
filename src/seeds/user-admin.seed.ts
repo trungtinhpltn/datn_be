@@ -16,7 +16,7 @@ export class UserAdminSeed extends BaseSeed {
         where: {
           OR: [
             {
-              role: "admin"
+              role: "ADMIN"
             },
             {
               username: "admin"
@@ -30,7 +30,7 @@ export class UserAdminSeed extends BaseSeed {
   async importSeed(): Promise<void> {
     const hash = await argon.hash(UserAdminDatas.password);
     await this.prisma.user.create({
-      data: { ...UserAdminDatas, password: hash, role: "admin" }
+      data: { ...UserAdminDatas, password: hash, role: "ADMIN" }
     });
   }
 }
