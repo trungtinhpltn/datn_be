@@ -1,0 +1,4258 @@
+{
+  "data": [
+    {
+      "MaDVHC": 1,
+      "Ten": "Quận Ba Đình",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 2,
+      "Ten": "Quận Hoàn Kiếm",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 3,
+      "Ten": "Quận Tây Hồ",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 4,
+      "Ten": "Quận Long Biên",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 5,
+      "Ten": "Quận Cầu Giấy",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 6,
+      "Ten": "Quận Đống Đa",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 7,
+      "Ten": "Quận Hai Bà Trưng",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 8,
+      "Ten": "Quận Hoàng Mai",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 9,
+      "Ten": "Quận Thanh Xuân",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 16,
+      "Ten": "Huyện Sóc Sơn",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 17,
+      "Ten": "Huyện Đông Anh",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 18,
+      "Ten": "Huyện Gia Lâm",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 19,
+      "Ten": "Quận Nam Từ Liêm",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 20,
+      "Ten": "Huyện Thanh Trì",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 21,
+      "Ten": "Quận Bắc Từ Liêm",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 250,
+      "Ten": "Huyện Mê Linh",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 268,
+      "Ten": "Quận Hà Đông",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 269,
+      "Ten": "Thị xã Sơn Tây",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 271,
+      "Ten": "Huyện Ba Vì",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 272,
+      "Ten": "Huyện Phúc Thọ",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 273,
+      "Ten": "Huyện Đan Phượng",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 274,
+      "Ten": "Huyện Hoài Đức",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 275,
+      "Ten": "Huyện Quốc Oai",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 276,
+      "Ten": "Huyện Thạch Thất",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 277,
+      "Ten": "Huyện Chương Mỹ",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 278,
+      "Ten": "Huyện Thanh Oai",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 279,
+      "Ten": "Huyện Thường Tín",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 280,
+      "Ten": "Huyện Phú Xuyên",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 281,
+      "Ten": "Huyện Ứng Hòa",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 282,
+      "Ten": "Huyện Mỹ Đức",
+      "CapTren": 1,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 24,
+      "Ten": "Thành phố Hà Giang",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 26,
+      "Ten": "Huyện Đồng Văn",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 27,
+      "Ten": "Huyện Mèo Vạc",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 28,
+      "Ten": "Huyện Yên Minh",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 29,
+      "Ten": "Huyện Quản Bạ",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 30,
+      "Ten": "Huyện Vị Xuyên",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 31,
+      "Ten": "Huyện Bắc Mê",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 32,
+      "Ten": "Huyện Hoàng Su Phì",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 33,
+      "Ten": "Huyện Xín Mần",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 34,
+      "Ten": "Huyện Bắc Quang",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 35,
+      "Ten": "Huyện Quang Bình",
+      "CapTren": 2,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 40,
+      "Ten": "Thành phố Cao Bằng",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 42,
+      "Ten": "Huyện Bảo Lâm",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 43,
+      "Ten": "Huyện Bảo Lạc",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 44,
+      "Ten": "Huyện Thông Nông",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 45,
+      "Ten": "Huyện Hà Quảng",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 46,
+      "Ten": "Huyện Trà Lĩnh",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 47,
+      "Ten": "Huyện Trùng Khánh",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 48,
+      "Ten": "Huyện Hạ Lang",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 49,
+      "Ten": "Huyện Quảng Uyên",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 50,
+      "Ten": "Huyện Phục Hoà",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 51,
+      "Ten": "Huyện Hoà An",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 52,
+      "Ten": "Huyện Nguyên Bình",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 53,
+      "Ten": "Huyện Thạch An",
+      "CapTren": 4,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 58,
+      "Ten": "Thành Phố Bắc Kạn",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 60,
+      "Ten": "Huyện Pác Nặm",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 61,
+      "Ten": "Huyện Ba Bể",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 62,
+      "Ten": "Huyện Ngân Sơn",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 63,
+      "Ten": "Huyện Bạch Thông",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 64,
+      "Ten": "Huyện Chợ Đồn",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 65,
+      "Ten": "Huyện Chợ Mới",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 66,
+      "Ten": "Huyện Na Rì",
+      "CapTren": 6,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 70,
+      "Ten": "Thành phố Tuyên Quang",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 71,
+      "Ten": "Huyện Lâm Bình",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 72,
+      "Ten": "Huyện Nà Hang",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 73,
+      "Ten": "Huyện Chiêm Hóa",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 74,
+      "Ten": "Huyện Hàm Yên",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 75,
+      "Ten": "Huyện Yên Sơn",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 76,
+      "Ten": "Huyện Sơn Dương",
+      "CapTren": 8,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 80,
+      "Ten": "Thành phố Lào Cai",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 82,
+      "Ten": "Huyện Bát Xát",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 83,
+      "Ten": "Huyện Mường Khương",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 84,
+      "Ten": "Huyện Si Ma Cai",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 85,
+      "Ten": "Huyện Bắc Hà",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 86,
+      "Ten": "Huyện Bảo Thắng",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 87,
+      "Ten": "Huyện Bảo Yên",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 88,
+      "Ten": "Huyện Sa Pa",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 89,
+      "Ten": "Huyện Văn Bàn",
+      "CapTren": 10,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 94,
+      "Ten": "Thành phố Điện Biên Phủ",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 95,
+      "Ten": "Thị Xã Mường Lay",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 96,
+      "Ten": "Huyện Mường Nhé",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 97,
+      "Ten": "Huyện Mường Chà",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 98,
+      "Ten": "Huyện Tủa Chùa",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 99,
+      "Ten": "Huyện Tuần Giáo",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 100,
+      "Ten": "Huyện Điện Biên",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 101,
+      "Ten": "Huyện Điện Biên Đông",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 102,
+      "Ten": "Huyện Mường Ảng",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 103,
+      "Ten": "Huyện Nậm Pồ",
+      "CapTren": 11,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 105,
+      "Ten": "Thành phố Lai Châu",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 106,
+      "Ten": "Huyện Tam Đường",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 107,
+      "Ten": "Huyện Mường Tè",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 108,
+      "Ten": "Huyện Sìn Hồ",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 109,
+      "Ten": "Huyện Phong Thổ",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 110,
+      "Ten": "Huyện Than Uyên",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 111,
+      "Ten": "Huyện Tân Uyên",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 112,
+      "Ten": "Huyện Nậm Nhùn",
+      "CapTren": 12,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 116,
+      "Ten": "Thành phố Sơn La",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 118,
+      "Ten": "Huyện Quỳnh Nhai",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 119,
+      "Ten": "Huyện Thuận Châu",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 120,
+      "Ten": "Huyện Mường La",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 121,
+      "Ten": "Huyện Bắc Yên",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 122,
+      "Ten": "Huyện Phù Yên",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 123,
+      "Ten": "Huyện Mộc Châu",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 124,
+      "Ten": "Huyện Yên Châu",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 125,
+      "Ten": "Huyện Mai Sơn",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 126,
+      "Ten": "Huyện Sông Mã",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 127,
+      "Ten": "Huyện Sốp Cộp",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 128,
+      "Ten": "Huyện Vân Hồ",
+      "CapTren": 14,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 132,
+      "Ten": "Thành phố Yên Bái",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 133,
+      "Ten": "Thị xã Nghĩa Lộ",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 135,
+      "Ten": "Huyện Lục Yên",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 136,
+      "Ten": "Huyện Văn Yên",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 137,
+      "Ten": "Huyện Mù Căng Chải",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 138,
+      "Ten": "Huyện Trấn Yên",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 139,
+      "Ten": "Huyện Trạm Tấu",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 140,
+      "Ten": "Huyện Văn Chấn",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 141,
+      "Ten": "Huyện Yên Bình",
+      "CapTren": 15,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 148,
+      "Ten": "Thành phố Hòa Bình",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 150,
+      "Ten": "Huyện Đà Bắc",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 151,
+      "Ten": "Huyện Kỳ Sơn",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 152,
+      "Ten": "Huyện Lương Sơn",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 153,
+      "Ten": "Huyện Kim Bôi",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 154,
+      "Ten": "Huyện Cao Phong",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 155,
+      "Ten": "Huyện Tân Lạc",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 156,
+      "Ten": "Huyện Mai Châu",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 157,
+      "Ten": "Huyện Lạc Sơn",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 158,
+      "Ten": "Huyện Yên Thủy",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 159,
+      "Ten": "Huyện Lạc Thủy",
+      "CapTren": 17,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 164,
+      "Ten": "Thành phố Thái Nguyên",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 165,
+      "Ten": "Thành phố Sông Công",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 167,
+      "Ten": "Huyện Định Hóa",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 168,
+      "Ten": "Huyện Phú Lương",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 169,
+      "Ten": "Huyện Đồng Hỷ",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 170,
+      "Ten": "Huyện Võ Nhai",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 171,
+      "Ten": "Huyện Đại Từ",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 172,
+      "Ten": "Thị xã Phổ Yên",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 173,
+      "Ten": "Huyện Phú Bình",
+      "CapTren": 19,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 178,
+      "Ten": "Thành phố Lạng Sơn",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 180,
+      "Ten": "Huyện Tràng Định",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 181,
+      "Ten": "Huyện Bình Gia",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 182,
+      "Ten": "Huyện Văn Lãng",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 183,
+      "Ten": "Huyện Cao Lộc",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 184,
+      "Ten": "Huyện Văn Quan",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 185,
+      "Ten": "Huyện Bắc Sơn",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 186,
+      "Ten": "Huyện Hữu Lũng",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 187,
+      "Ten": "Huyện Chi Lăng",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 188,
+      "Ten": "Huyện Lộc Bình",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 189,
+      "Ten": "Huyện Đình Lập",
+      "CapTren": 20,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 193,
+      "Ten": "Thành phố Hạ Long",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 194,
+      "Ten": "Thành phố Móng Cái",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 195,
+      "Ten": "Thành phố Cẩm Phả",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 196,
+      "Ten": "Thành phố Uông Bí",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 198,
+      "Ten": "Huyện Bình Liêu",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 199,
+      "Ten": "Huyện Tiên Yên",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 200,
+      "Ten": "Huyện Đầm Hà",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 201,
+      "Ten": "Huyện Hải Hà",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 202,
+      "Ten": "Huyện Ba Chẽ",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 203,
+      "Ten": "Huyện Vân Đồn",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 204,
+      "Ten": "Huyện Hoành Bồ",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 205,
+      "Ten": "Thị xã Đông Triều",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 206,
+      "Ten": "Thị xã Quảng Yên",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 207,
+      "Ten": "Huyện Cô Tô",
+      "CapTren": 22,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 213,
+      "Ten": "Thành phố Bắc Giang",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 215,
+      "Ten": "Huyện Yên Thế",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 216,
+      "Ten": "Huyện Tân Yên",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 217,
+      "Ten": "Huyện Lạng Giang",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 218,
+      "Ten": "Huyện Lục Nam",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 219,
+      "Ten": "Huyện Lục Ngạn",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 220,
+      "Ten": "Huyện Sơn Động",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 221,
+      "Ten": "Huyện Yên Dũng",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 222,
+      "Ten": "Huyện Việt Yên",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 223,
+      "Ten": "Huyện Hiệp Hòa",
+      "CapTren": 24,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 227,
+      "Ten": "Thành phố Việt Trì",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 228,
+      "Ten": "Thị xã Phú Thọ",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 230,
+      "Ten": "Huyện Đoan Hùng",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 231,
+      "Ten": "Huyện Hạ Hoà",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 232,
+      "Ten": "Huyện Thanh Ba",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 233,
+      "Ten": "Huyện Phù Ninh",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 234,
+      "Ten": "Huyện Yên Lập",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 235,
+      "Ten": "Huyện Cẩm Khê",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 236,
+      "Ten": "Huyện Tam Nông",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 237,
+      "Ten": "Huyện Lâm Thao",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 238,
+      "Ten": "Huyện Thanh Sơn",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 239,
+      "Ten": "Huyện Thanh Thuỷ",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 240,
+      "Ten": "Huyện Tân Sơn",
+      "CapTren": 25,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 243,
+      "Ten": "Thành phố Vĩnh Yên",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 244,
+      "Ten": "Thị xã Phúc Yên",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 246,
+      "Ten": "Huyện Lập Thạch",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 247,
+      "Ten": "Huyện Tam Dương",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 248,
+      "Ten": "Huyện Tam Đảo",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 249,
+      "Ten": "Huyện Bình Xuyên",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 251,
+      "Ten": "Huyện Yên Lạc",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 252,
+      "Ten": "Huyện Vĩnh Tường",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 253,
+      "Ten": "Huyện Sông Lô",
+      "CapTren": 26,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 256,
+      "Ten": "Thành phố Bắc Ninh",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 258,
+      "Ten": "Huyện Yên Phong",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 259,
+      "Ten": "Huyện Quế Võ",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 260,
+      "Ten": "Huyện Tiên Du",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 261,
+      "Ten": "Thị xã Từ Sơn",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 262,
+      "Ten": "Huyện Thuận Thành",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 263,
+      "Ten": "Huyện Gia Bình",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 264,
+      "Ten": "Huyện Lương Tài",
+      "CapTren": 27,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 288,
+      "Ten": "Thành phố Hải Dương",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 290,
+      "Ten": "Thị xã Chí Linh",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 291,
+      "Ten": "Huyện Nam Sách",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 292,
+      "Ten": "Huyện Kinh Môn",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 293,
+      "Ten": "Huyện Kim Thành",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 294,
+      "Ten": "Huyện Thanh Hà",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 295,
+      "Ten": "Huyện Cẩm Giàng",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 296,
+      "Ten": "Huyện Bình Giang",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 297,
+      "Ten": "Huyện Gia Lộc",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 298,
+      "Ten": "Huyện Tứ Kỳ",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 299,
+      "Ten": "Huyện Ninh Giang",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 300,
+      "Ten": "Huyện Thanh Miện",
+      "CapTren": 30,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 303,
+      "Ten": "Quận Hồng Bàng",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 304,
+      "Ten": "Quận Ngô Quyền",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 305,
+      "Ten": "Quận Lê Chân",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 306,
+      "Ten": "Quận Hải An",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 307,
+      "Ten": "Quận Kiến An",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 308,
+      "Ten": "Quận Đồ Sơn",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 309,
+      "Ten": "Quận Dương Kinh",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 311,
+      "Ten": "Huyện Thuỷ Nguyên",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 312,
+      "Ten": "Huyện An Dương",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 313,
+      "Ten": "Huyện An Lão",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 314,
+      "Ten": "Huyện Kiến Thuỵ",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 315,
+      "Ten": "Huyện Tiên Lãng",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 316,
+      "Ten": "Huyện Vĩnh Bảo",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 317,
+      "Ten": "Huyện Cát Hải",
+      "CapTren": 31,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 323,
+      "Ten": "Thành phố Hưng Yên",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 325,
+      "Ten": "Huyện Văn Lâm",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 326,
+      "Ten": "Huyện Văn Giang",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 327,
+      "Ten": "Huyện Yên Mỹ",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 328,
+      "Ten": "Huyện Mỹ Hào",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 329,
+      "Ten": "Huyện Ân Thi",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 330,
+      "Ten": "Huyện Khoái Châu",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 331,
+      "Ten": "Huyện Kim Động",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 332,
+      "Ten": "Huyện Tiên Lữ",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 333,
+      "Ten": "Huyện Phù Cừ",
+      "CapTren": 33,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 336,
+      "Ten": "Thành phố Thái Bình",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 338,
+      "Ten": "Huyện Quỳnh Phụ",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 339,
+      "Ten": "Huyện Hưng Hà",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 340,
+      "Ten": "Huyện Đông Hưng",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 341,
+      "Ten": "Huyện Thái Thụy",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 342,
+      "Ten": "Huyện Tiền Hải",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 343,
+      "Ten": "Huyện Kiến Xương",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 344,
+      "Ten": "Huyện Vũ Thư",
+      "CapTren": 34,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 347,
+      "Ten": "Thành phố Phủ Lý",
+      "CapTren": 35,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 349,
+      "Ten": "Huyện Duy Tiên",
+      "CapTren": 35,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 350,
+      "Ten": "Huyện Kim Bảng",
+      "CapTren": 35,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 351,
+      "Ten": "Huyện Thanh Liêm",
+      "CapTren": 35,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 352,
+      "Ten": "Huyện Bình Lục",
+      "CapTren": 35,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 353,
+      "Ten": "Huyện Lý Nhân",
+      "CapTren": 35,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 356,
+      "Ten": "Thành phố Nam Định",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 358,
+      "Ten": "Huyện Mỹ Lộc",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 359,
+      "Ten": "Huyện Vụ Bản",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 360,
+      "Ten": "Huyện Ý Yên",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 361,
+      "Ten": "Huyện Nghĩa Hưng",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 362,
+      "Ten": "Huyện Nam Trực",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 363,
+      "Ten": "Huyện Trực Ninh",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 364,
+      "Ten": "Huyện Xuân Trường",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 365,
+      "Ten": "Huyện Giao Thủy",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 366,
+      "Ten": "Huyện Hải Hậu",
+      "CapTren": 36,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 369,
+      "Ten": "Thành phố Ninh Bình",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 370,
+      "Ten": "Thành phố Tam Điệp",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 372,
+      "Ten": "Huyện Nho Quan",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 373,
+      "Ten": "Huyện Gia Viễn",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 374,
+      "Ten": "Huyện Hoa Lư",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 375,
+      "Ten": "Huyện Yên Khánh",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 376,
+      "Ten": "Huyện Kim Sơn",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 377,
+      "Ten": "Huyện Yên Mô",
+      "CapTren": 37,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 380,
+      "Ten": "Thành phố Thanh Hóa",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 381,
+      "Ten": "Thị xã Bỉm Sơn",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 382,
+      "Ten": "Thị xã Sầm Sơn",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 384,
+      "Ten": "Huyện Mường Lát",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 385,
+      "Ten": "Huyện Quan Hóa",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 386,
+      "Ten": "Huyện Bá Thước",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 387,
+      "Ten": "Huyện Quan Sơn",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 388,
+      "Ten": "Huyện Lang Chánh",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 389,
+      "Ten": "Huyện Ngọc Lặc",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 390,
+      "Ten": "Huyện Cẩm Thủy",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 391,
+      "Ten": "Huyện Thạch Thành",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 392,
+      "Ten": "Huyện Hà Trung",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 393,
+      "Ten": "Huyện Vĩnh Lộc",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 394,
+      "Ten": "Huyện Yên Định",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 395,
+      "Ten": "Huyện Thọ Xuân",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 396,
+      "Ten": "Huyện Thường Xuân",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 397,
+      "Ten": "Huyện Triệu Sơn",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 398,
+      "Ten": "Huyện Thiệu Hóa",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 399,
+      "Ten": "Huyện Hoằng Hóa",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 400,
+      "Ten": "Huyện Hậu Lộc",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 401,
+      "Ten": "Huyện Nga Sơn",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 402,
+      "Ten": "Huyện Như Xuân",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 403,
+      "Ten": "Huyện Như Thanh",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 404,
+      "Ten": "Huyện Nông Cống",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 405,
+      "Ten": "Huyện Đông Sơn",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 406,
+      "Ten": "Huyện Quảng Xương",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 407,
+      "Ten": "Huyện Tĩnh Gia",
+      "CapTren": 38,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 412,
+      "Ten": "Thành phố Vinh",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 413,
+      "Ten": "Thị xã Cửa Lò",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 414,
+      "Ten": "Thị xã Thái Hoà",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 415,
+      "Ten": "Huyện Quế Phong",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 416,
+      "Ten": "Huyện Quỳ Châu",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 417,
+      "Ten": "Huyện Kỳ Sơn",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 418,
+      "Ten": "Huyện Tương Dương",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 419,
+      "Ten": "Huyện Nghĩa Đàn",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 420,
+      "Ten": "Huyện Quỳ Hợp",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 421,
+      "Ten": "Huyện Quỳnh Lưu",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 422,
+      "Ten": "Huyện Con Cuông",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 423,
+      "Ten": "Huyện Tân Kỳ",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 424,
+      "Ten": "Huyện Anh Sơn",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 425,
+      "Ten": "Huyện Diễn Châu",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 426,
+      "Ten": "Huyện Yên Thành",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 427,
+      "Ten": "Huyện Đô Lương",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 428,
+      "Ten": "Huyện Thanh Chương",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 429,
+      "Ten": "Huyện Nghi Lộc",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 430,
+      "Ten": "Huyện Nam Đàn",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 431,
+      "Ten": "Huyện Hưng Nguyên",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 432,
+      "Ten": "Thị xã Hoàng Mai",
+      "CapTren": 40,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 436,
+      "Ten": "Thành phố Hà Tĩnh",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 437,
+      "Ten": "Thị xã Hồng Lĩnh",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 439,
+      "Ten": "Huyện Hương Sơn",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 440,
+      "Ten": "Huyện Đức Thọ",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 441,
+      "Ten": "Huyện Vũ Quang",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 442,
+      "Ten": "Huyện Nghi Xuân",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 443,
+      "Ten": "Huyện Can Lộc",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 444,
+      "Ten": "Huyện Hương Khê",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 445,
+      "Ten": "Huyện Thạch Hà",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 446,
+      "Ten": "Huyện Cẩm Xuyên",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 447,
+      "Ten": "Huyện Kỳ Anh",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 448,
+      "Ten": "Huyện Lộc Hà",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 449,
+      "Ten": "Thị xã Kỳ Anh",
+      "CapTren": 42,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 450,
+      "Ten": "Thành Phố Đồng Hới",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 452,
+      "Ten": "Huyện Minh Hóa",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 453,
+      "Ten": "Huyện Tuyên Hóa",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 454,
+      "Ten": "Huyện Quảng Trạch",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 455,
+      "Ten": "Huyện Bố Trạch",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 456,
+      "Ten": "Huyện Quảng Ninh",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 457,
+      "Ten": "Huyện Lệ Thủy",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 458,
+      "Ten": "Thị xã Ba Đồn",
+      "CapTren": 44,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 461,
+      "Ten": "Thành phố Đông Hà",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 462,
+      "Ten": "Thị xã Quảng Trị",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 464,
+      "Ten": "Huyện Vĩnh Linh",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 465,
+      "Ten": "Huyện Hướng Hóa",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 466,
+      "Ten": "Huyện Gio Linh",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 467,
+      "Ten": "Huyện Đa Krông",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 468,
+      "Ten": "Huyện Cam Lộ",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 469,
+      "Ten": "Huyện Triệu Phong",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 470,
+      "Ten": "Huyện Hải Lăng",
+      "CapTren": 45,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 474,
+      "Ten": "Thành phố Huế",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 476,
+      "Ten": "Huyện Phong Điền",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 477,
+      "Ten": "Huyện Quảng Điền",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 478,
+      "Ten": "Huyện Phú Vang",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 479,
+      "Ten": "Thị xã Hương Thủy",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 480,
+      "Ten": "Thị xã Hương Trà",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 481,
+      "Ten": "Huyện A Lưới",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 482,
+      "Ten": "Huyện Phú Lộc",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 483,
+      "Ten": "Huyện Nam Đông",
+      "CapTren": 46,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 490,
+      "Ten": "Quận Liên Chiểu",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 491,
+      "Ten": "Quận Thanh Khê",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 492,
+      "Ten": "Quận Hải Châu",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 493,
+      "Ten": "Quận Sơn Trà",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 494,
+      "Ten": "Quận Ngũ Hành Sơn",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 495,
+      "Ten": "Quận Cẩm Lệ",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 497,
+      "Ten": "Huyện Hòa Vang",
+      "CapTren": 48,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 502,
+      "Ten": "Thành phố Tam Kỳ",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 503,
+      "Ten": "Thành phố Hội An",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 504,
+      "Ten": "Huyện Tây Giang",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 505,
+      "Ten": "Huyện Đông Giang",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 506,
+      "Ten": "Huyện Đại Lộc",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 507,
+      "Ten": "Thị xã Điện Bàn",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 508,
+      "Ten": "Huyện Duy Xuyên",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 509,
+      "Ten": "Huyện Quế Sơn",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 510,
+      "Ten": "Huyện Nam Giang",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 511,
+      "Ten": "Huyện Phước Sơn",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 512,
+      "Ten": "Huyện Hiệp Đức",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 513,
+      "Ten": "Huyện Thăng Bình",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 514,
+      "Ten": "Huyện Tiên Phước",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 515,
+      "Ten": "Huyện Bắc Trà My",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 516,
+      "Ten": "Huyện Nam Trà My",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 517,
+      "Ten": "Huyện Núi Thành",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 518,
+      "Ten": "Huyện Phú Ninh",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 519,
+      "Ten": "Huyện Nông Sơn",
+      "CapTren": 49,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 522,
+      "Ten": "Thành phố Quảng Ngãi",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 524,
+      "Ten": "Huyện Bình Sơn",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 525,
+      "Ten": "Huyện Trà Bồng",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 526,
+      "Ten": "Huyện Tây Trà",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 527,
+      "Ten": "Huyện Sơn Tịnh",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 528,
+      "Ten": "Huyện Tư Nghĩa",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 529,
+      "Ten": "Huyện Sơn Hà",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 530,
+      "Ten": "Huyện Sơn Tây",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 531,
+      "Ten": "Huyện Minh Long",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 532,
+      "Ten": "Huyện Nghĩa Hành",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 533,
+      "Ten": "Huyện Mộ Đức",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 534,
+      "Ten": "Huyện Đức Phổ",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 535,
+      "Ten": "Huyện Ba Tơ",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 536,
+      "Ten": "Huyện Lý Sơn",
+      "CapTren": 51,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 540,
+      "Ten": "Thành phố Qui Nhơn",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 542,
+      "Ten": "Huyện An Lão",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 543,
+      "Ten": "Huyện Hoài Nhơn",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 544,
+      "Ten": "Huyện Hoài Ân",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 545,
+      "Ten": "Huyện Phù Mỹ",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 546,
+      "Ten": "Huyện Vĩnh Thạnh",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 547,
+      "Ten": "Huyện Tây Sơn",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 548,
+      "Ten": "Huyện Phù Cát",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 549,
+      "Ten": "Thị xã An Nhơn",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 550,
+      "Ten": "Huyện Tuy Phước",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 551,
+      "Ten": "Huyện Vân Canh",
+      "CapTren": 52,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 555,
+      "Ten": "Thành phố Tuy Hoà",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 557,
+      "Ten": "Thị xã Sông Cầu",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 558,
+      "Ten": "Huyện Đồng Xuân",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 559,
+      "Ten": "Huyện Tuy An",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 560,
+      "Ten": "Huyện Sơn Hòa",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 561,
+      "Ten": "Huyện Sông Hinh",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 562,
+      "Ten": "Huyện Tây Hoà",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 563,
+      "Ten": "Huyện Phú Hoà",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 564,
+      "Ten": "Huyện Đông Hòa",
+      "CapTren": 54,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 568,
+      "Ten": "Thành phố Nha Trang",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 569,
+      "Ten": "Thành phố Cam Ranh",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 570,
+      "Ten": "Huyện Cam Lâm",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 571,
+      "Ten": "Huyện Vạn Ninh",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 572,
+      "Ten": "Thị xã Ninh Hòa",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 573,
+      "Ten": "Huyện Khánh Vĩnh",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 574,
+      "Ten": "Huyện Diên Khánh",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 575,
+      "Ten": "Huyện Khánh Sơn",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 576,
+      "Ten": "Huyện Trường Sa",
+      "CapTren": 56,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 582,
+      "Ten": "Thành phố Phan Rang-Tháp Chàm",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 584,
+      "Ten": "Huyện Bác Ái",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 585,
+      "Ten": "Huyện Ninh Sơn",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 586,
+      "Ten": "Huyện Ninh Hải",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 587,
+      "Ten": "Huyện Ninh Phước",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 588,
+      "Ten": "Huyện Thuận Bắc",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 589,
+      "Ten": "Huyện Thuận Nam",
+      "CapTren": 58,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 593,
+      "Ten": "Thành phố Phan Thiết",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 594,
+      "Ten": "Thị xã La Gi",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 595,
+      "Ten": "Huyện Tuy Phong",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 596,
+      "Ten": "Huyện Bắc Bình",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 597,
+      "Ten": "Huyện Hàm Thuận Bắc",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 598,
+      "Ten": "Huyện Hàm Thuận Nam",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 599,
+      "Ten": "Huyện Tánh Linh",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 600,
+      "Ten": "Huyện Đức Linh",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 601,
+      "Ten": "Huyện Hàm Tân",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 602,
+      "Ten": "Huyện Phú Quí",
+      "CapTren": 60,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 608,
+      "Ten": "Thành phố Kon Tum",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 610,
+      "Ten": "Huyện Đắk Glei",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 611,
+      "Ten": "Huyện Ngọc Hồi",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 612,
+      "Ten": "Huyện Đắk Tô",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 613,
+      "Ten": "Huyện Kon Plông",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 614,
+      "Ten": "Huyện Kon Rẫy",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 615,
+      "Ten": "Huyện Đắk Hà",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 616,
+      "Ten": "Huyện Sa Thầy",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 617,
+      "Ten": "Huyện Tu Mơ Rông",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 618,
+      "Ten": "Huyện Ia H' Drai",
+      "CapTren": 62,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 622,
+      "Ten": "Thành phố Pleiku",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 623,
+      "Ten": "Thị xã An Khê",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 624,
+      "Ten": "Thị xã Ayun Pa",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 625,
+      "Ten": "Huyện KBang",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 626,
+      "Ten": "Huyện Đăk Đoa",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 627,
+      "Ten": "Huyện Chư Păh",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 628,
+      "Ten": "Huyện Ia Grai",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 629,
+      "Ten": "Huyện Mang Yang",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 630,
+      "Ten": "Huyện Kông Chro",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 631,
+      "Ten": "Huyện Đức Cơ",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 632,
+      "Ten": "Huyện Chư Prông",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 633,
+      "Ten": "Huyện Chư Sê",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 634,
+      "Ten": "Huyện Đăk Pơ",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 635,
+      "Ten": "Huyện Ia Pa",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 637,
+      "Ten": "Huyện Krông Pa",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 638,
+      "Ten": "Huyện Phú Thiện",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 639,
+      "Ten": "Huyện Chư Pưh",
+      "CapTren": 64,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 643,
+      "Ten": "Thành phố Buôn Ma Thuột",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 644,
+      "Ten": "Thị Xã Buôn Hồ",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 645,
+      "Ten": "Huyện Ea H'leo",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 646,
+      "Ten": "Huyện Ea Súp",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 647,
+      "Ten": "Huyện Buôn Đôn",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 648,
+      "Ten": "Huyện Cư M'gar",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 649,
+      "Ten": "Huyện Krông Búk",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 650,
+      "Ten": "Huyện Krông Năng",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 651,
+      "Ten": "Huyện Ea Kar",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 652,
+      "Ten": "Huyện M'Đrắk",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 653,
+      "Ten": "Huyện Krông Bông",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 654,
+      "Ten": "Huyện Krông Pắc",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 655,
+      "Ten": "Huyện Krông A Na",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 656,
+      "Ten": "Huyện Lắk",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 657,
+      "Ten": "Huyện Cư Kuin",
+      "CapTren": 66,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 660,
+      "Ten": "Thị xã Gia Nghĩa",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 661,
+      "Ten": "Huyện Đăk Glong",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 662,
+      "Ten": "Huyện Cư Jút",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 663,
+      "Ten": "Huyện Đắk Mil",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 664,
+      "Ten": "Huyện Krông Nô",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 665,
+      "Ten": "Huyện Đắk Song",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 666,
+      "Ten": "Huyện Đắk R'Lấp",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 667,
+      "Ten": "Huyện Tuy Đức",
+      "CapTren": 67,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 672,
+      "Ten": "Thành phố Đà Lạt",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 673,
+      "Ten": "Thành phố Bảo Lộc",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 674,
+      "Ten": "Huyện Đam Rông",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 675,
+      "Ten": "Huyện Lạc Dương",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 676,
+      "Ten": "Huyện Lâm Hà",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 677,
+      "Ten": "Huyện Đơn Dương",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 678,
+      "Ten": "Huyện Đức Trọng",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 679,
+      "Ten": "Huyện Di Linh",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 680,
+      "Ten": "Huyện Bảo Lâm",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 681,
+      "Ten": "Huyện Đạ Huoai",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 682,
+      "Ten": "Huyện Đạ Tẻh",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 683,
+      "Ten": "Huyện Cát Tiên",
+      "CapTren": 68,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 688,
+      "Ten": "Thị xã Phước Long",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 689,
+      "Ten": "Thị xã Đồng Xoài",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 690,
+      "Ten": "Thị xã Bình Long",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 691,
+      "Ten": "Huyện Bù Gia Mập",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 692,
+      "Ten": "Huyện Lộc Ninh",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 693,
+      "Ten": "Huyện Bù Đốp",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 694,
+      "Ten": "Huyện Hớn Quản",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 695,
+      "Ten": "Huyện Đồng Phú",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 696,
+      "Ten": "Huyện Bù Đăng",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 697,
+      "Ten": "Huyện Chơn Thành",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 698,
+      "Ten": "Huyện Phú Riềng",
+      "CapTren": 70,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 703,
+      "Ten": "Thành phố Tây Ninh",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 705,
+      "Ten": "Huyện Tân Biên",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 706,
+      "Ten": "Huyện Tân Châu",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 707,
+      "Ten": "Huyện Dương Minh Châu",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 708,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 709,
+      "Ten": "Huyện Hòa Thành",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 710,
+      "Ten": "Huyện Gò Dầu",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 711,
+      "Ten": "Huyện Bến Cầu",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 712,
+      "Ten": "Huyện Trảng Bàng",
+      "CapTren": 72,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 718,
+      "Ten": "Thành phố Thủ Dầu Một",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 719,
+      "Ten": "Huyện Bàu Bàng",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 720,
+      "Ten": "Huyện Dầu Tiếng",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 721,
+      "Ten": "Thị xã Bến Cát",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 722,
+      "Ten": "Huyện Phú Giáo",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 723,
+      "Ten": "Thị xã Tân Uyên",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 724,
+      "Ten": "Thị xã Dĩ An",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 725,
+      "Ten": "Thị xã Thuận An",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 726,
+      "Ten": "Huyện Bắc Tân Uyên",
+      "CapTren": 74,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 731,
+      "Ten": "Thành phố Biên Hòa",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 732,
+      "Ten": "Thị xã Long Khánh",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 734,
+      "Ten": "Huyện Tân Phú",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 735,
+      "Ten": "Huyện Vĩnh Cửu",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 736,
+      "Ten": "Huyện Định Quán",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 737,
+      "Ten": "Huyện Trảng Bom",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 738,
+      "Ten": "Huyện Thống Nhất",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 739,
+      "Ten": "Huyện Cẩm Mỹ",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 740,
+      "Ten": "Huyện Long Thành",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 741,
+      "Ten": "Huyện Xuân Lộc",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 742,
+      "Ten": "Huyện Nhơn Trạch",
+      "CapTren": 75,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 747,
+      "Ten": "Thành phố Vũng Tàu",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 748,
+      "Ten": "Thành phố Bà Rịa",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 750,
+      "Ten": "Huyện Châu Đức",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 751,
+      "Ten": "Huyện Xuyên Mộc",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 752,
+      "Ten": "Huyện Long Điền",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 753,
+      "Ten": "Huyện Đất Đỏ",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 754,
+      "Ten": "Huyện Tân Thành",
+      "CapTren": 77,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 760,
+      "Ten": "Quận 1",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 761,
+      "Ten": "Quận 12",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 762,
+      "Ten": "Quận Thủ Đức",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 763,
+      "Ten": "Quận 9",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 764,
+      "Ten": "Quận Gò Vấp",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 765,
+      "Ten": "Quận Bình Thạnh",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 766,
+      "Ten": "Quận Tân Bình",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 767,
+      "Ten": "Quận Tân Phú",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 768,
+      "Ten": "Quận Phú Nhuận",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 769,
+      "Ten": "Quận 2",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 770,
+      "Ten": "Quận 3",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 771,
+      "Ten": "Quận 10",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 772,
+      "Ten": "Quận 11",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 773,
+      "Ten": "Quận 4",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 774,
+      "Ten": "Quận 5",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 775,
+      "Ten": "Quận 6",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 776,
+      "Ten": "Quận 8",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 777,
+      "Ten": "Quận Bình Tân",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 778,
+      "Ten": "Quận 7",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 783,
+      "Ten": "Huyện Củ Chi",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 784,
+      "Ten": "Huyện Hóc Môn",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 785,
+      "Ten": "Huyện Bình Chánh",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 786,
+      "Ten": "Huyện Nhà Bè",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 787,
+      "Ten": "Huyện Cần Giờ",
+      "CapTren": 79,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 794,
+      "Ten": "Thành phố Tân An",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 795,
+      "Ten": "Thị xã Kiến Tường",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 796,
+      "Ten": "Huyện Tân Hưng",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 797,
+      "Ten": "Huyện Vĩnh Hưng",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 798,
+      "Ten": "Huyện Mộc Hóa",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 799,
+      "Ten": "Huyện Tân Thạnh",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 800,
+      "Ten": "Huyện Thạnh Hóa",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 801,
+      "Ten": "Huyện Đức Huệ",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 802,
+      "Ten": "Huyện Đức Hòa",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 803,
+      "Ten": "Huyện Bến Lức",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 804,
+      "Ten": "Huyện Thủ Thừa",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 805,
+      "Ten": "Huyện Tân Trụ",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 806,
+      "Ten": "Huyện Cần Đước",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 807,
+      "Ten": "Huyện Cần Giuộc",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 808,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 80,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 815,
+      "Ten": "Thành phố Mỹ Tho",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 816,
+      "Ten": "Thị xã Gò Công",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 817,
+      "Ten": "Thị xã Cai Lậy",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 818,
+      "Ten": "Huyện Tân Phước",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 819,
+      "Ten": "Huyện Cái Bè",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 820,
+      "Ten": "Huyện Cai Lậy",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 821,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 822,
+      "Ten": "Huyện Chợ Gạo",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 823,
+      "Ten": "Huyện Gò Công Tây",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 824,
+      "Ten": "Huyện Gò Công Đông",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 825,
+      "Ten": "Huyện Tân Phú Đông",
+      "CapTren": 82,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 829,
+      "Ten": "Thành phố Bến Tre",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 831,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 832,
+      "Ten": "Huyện Chợ Lách",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 833,
+      "Ten": "Huyện Mỏ Cày Nam",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 834,
+      "Ten": "Huyện Giồng Trôm",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 835,
+      "Ten": "Huyện Bình Đại",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 836,
+      "Ten": "Huyện Ba Tri",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 837,
+      "Ten": "Huyện Thạnh Phú",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 838,
+      "Ten": "Huyện Mỏ Cày Bắc",
+      "CapTren": 83,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 842,
+      "Ten": "Thành phố Trà Vinh",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 844,
+      "Ten": "Huyện Càng Long",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 845,
+      "Ten": "Huyện Cầu Kè",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 846,
+      "Ten": "Huyện Tiểu Cần",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 847,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 848,
+      "Ten": "Huyện Cầu Ngang",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 849,
+      "Ten": "Huyện Trà Cú",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 850,
+      "Ten": "Huyện Duyên Hải",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 851,
+      "Ten": "Thị xã Duyên Hải",
+      "CapTren": 84,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 855,
+      "Ten": "Thành phố Vĩnh Long",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 857,
+      "Ten": "Huyện Long Hồ",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 858,
+      "Ten": "Huyện Mang Thít",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 859,
+      "Ten": "Huyện  Vũng Liêm",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 860,
+      "Ten": "Huyện Tam Bình",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 861,
+      "Ten": "Thị xã Bình Minh",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 862,
+      "Ten": "Huyện Trà Ôn",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 863,
+      "Ten": "Huyện Bình Tân",
+      "CapTren": 86,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 866,
+      "Ten": "Thành phố Cao Lãnh",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 867,
+      "Ten": "Thành phố Sa Đéc",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 868,
+      "Ten": "Thị xã Hồng Ngự",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 869,
+      "Ten": "Huyện Tân Hồng",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 870,
+      "Ten": "Huyện Hồng Ngự",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 871,
+      "Ten": "Huyện Tam Nông",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 872,
+      "Ten": "Huyện Tháp Mười",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 873,
+      "Ten": "Huyện Cao Lãnh",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 874,
+      "Ten": "Huyện Thanh Bình",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 875,
+      "Ten": "Huyện Lấp Vò",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 876,
+      "Ten": "Huyện Lai Vung",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 877,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 87,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 883,
+      "Ten": "Thành phố Long Xuyên",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 884,
+      "Ten": "Thành phố Châu Đốc",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 886,
+      "Ten": "Huyện An Phú",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 887,
+      "Ten": "Thị xã Tân Châu",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 888,
+      "Ten": "Huyện Phú Tân",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 889,
+      "Ten": "Huyện Châu Phú",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 890,
+      "Ten": "Huyện Tịnh Biên",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 891,
+      "Ten": "Huyện Tri Tôn",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 892,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 893,
+      "Ten": "Huyện Chợ Mới",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 894,
+      "Ten": "Huyện Thoại Sơn",
+      "CapTren": 89,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 899,
+      "Ten": "Thành phố Rạch Giá",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 900,
+      "Ten": "Thị xã Hà Tiên",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 902,
+      "Ten": "Huyện Kiên Lương",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 903,
+      "Ten": "Huyện Hòn Đất",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 904,
+      "Ten": "Huyện Tân Hiệp",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 905,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 906,
+      "Ten": "Huyện Giồng Riềng",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 907,
+      "Ten": "Huyện Gò Quao",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 908,
+      "Ten": "Huyện An Biên",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 909,
+      "Ten": "Huyện An Minh",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 910,
+      "Ten": "Huyện Vĩnh Thuận",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 911,
+      "Ten": "Huyện Phú Quốc",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 912,
+      "Ten": "Huyện Kiên Hải",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 913,
+      "Ten": "Huyện U Minh Thượng",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 914,
+      "Ten": "Huyện Giang Thành",
+      "CapTren": 91,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 916,
+      "Ten": "Quận Ninh Kiều",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 917,
+      "Ten": "Quận Ô Môn",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 918,
+      "Ten": "Quận Bình Thuỷ",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 919,
+      "Ten": "Quận Cái Răng",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 923,
+      "Ten": "Quận Thốt Nốt",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 924,
+      "Ten": "Huyện Vĩnh Thạnh",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 925,
+      "Ten": "Huyện Cờ Đỏ",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 926,
+      "Ten": "Huyện Phong Điền",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 927,
+      "Ten": "Huyện Thới Lai",
+      "CapTren": 92,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 930,
+      "Ten": "Thành phố Vị Thanh",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 931,
+      "Ten": "Thị xã Ngã Bảy",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 932,
+      "Ten": "Huyện Châu Thành A",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 933,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 934,
+      "Ten": "Huyện Phụng Hiệp",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 935,
+      "Ten": "Huyện Vị Thuỷ",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 936,
+      "Ten": "Huyện Long Mỹ",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 937,
+      "Ten": "Thị xã Long Mỹ",
+      "CapTren": 93,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 941,
+      "Ten": "Thành phố Sóc Trăng",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 942,
+      "Ten": "Huyện Châu Thành",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 943,
+      "Ten": "Huyện Kế Sách",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 944,
+      "Ten": "Huyện Mỹ Tú",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 945,
+      "Ten": "Huyện Cù Lao Dung",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 946,
+      "Ten": "Huyện Long Phú",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 947,
+      "Ten": "Huyện Mỹ Xuyên",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 948,
+      "Ten": "Thị xã Ngã Năm",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 949,
+      "Ten": "Huyện Thạnh Trị",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 950,
+      "Ten": "Thị xã Vĩnh Châu",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 951,
+      "Ten": "Huyện Trần Đề",
+      "CapTren": 94,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 954,
+      "Ten": "Thành phố Bạc Liêu",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 956,
+      "Ten": "Huyện Hồng Dân",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 957,
+      "Ten": "Huyện Phước Long",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 958,
+      "Ten": "Huyện Vĩnh Lợi",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 959,
+      "Ten": "Thị xã Giá Rai",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 960,
+      "Ten": "Huyện Đông Hải",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 961,
+      "Ten": "Huyện Hoà Bình",
+      "CapTren": 95,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 964,
+      "Ten": "Thành phố Cà Mau",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 966,
+      "Ten": "Huyện U Minh",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 967,
+      "Ten": "Huyện Thới Bình",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 968,
+      "Ten": "Huyện Trần Văn Thời",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 969,
+      "Ten": "Huyện Cái Nước",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 970,
+      "Ten": "Huyện Đầm Dơi",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 971,
+      "Ten": "Huyện Năm Căn",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 972,
+      "Ten": "Huyện Phú Tân",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    },
+    {
+      "MaDVHC": 973,
+      "Ten": "Huyện Ngọc Hiển",
+      "CapTren": 96,
+      "Cap": "HUYEN"
+    }
+  ]
+}

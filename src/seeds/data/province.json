@@ -1,0 +1,319 @@
+{
+  "data": [
+    {
+      "MaDVHC": 1,
+      "Ten": "Thành phố Hà Nội",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 2,
+      "Ten": "Tỉnh Hà Giang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 4,
+      "Ten": "Tỉnh Cao Bằng",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 6,
+      "Ten": "Tỉnh Bắc Kạn",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 8,
+      "Ten": "Tỉnh Tuyên Quang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 10,
+      "Ten": "Tỉnh Lào Cai",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 11,
+      "Ten": "Tỉnh Điện Biên",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 12,
+      "Ten": "Tỉnh Lai Châu",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 14,
+      "Ten": "Tỉnh Sơn La",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 15,
+      "Ten": "Tỉnh Yên Bái",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 17,
+      "Ten": "Tỉnh Hoà Bình",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 19,
+      "Ten": "Tỉnh Thái Nguyên",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 20,
+      "Ten": "Tỉnh Lạng Sơn",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 22,
+      "Ten": "Tỉnh Quảng Ninh",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 24,
+      "Ten": "Tỉnh Bắc Giang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 25,
+      "Ten": "Tỉnh Phú Thọ",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 26,
+      "Ten": "Tỉnh Vĩnh Phúc",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 27,
+      "Ten": "Tỉnh Bắc Ninh",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 30,
+      "Ten": "Tỉnh Hải Dương",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 31,
+      "Ten": "Thành phố Hải Phòng",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 33,
+      "Ten": "Tỉnh Hưng Yên",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 34,
+      "Ten": "Tỉnh Thái Bình",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 35,
+      "Ten": "Tỉnh Hà Nam",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 36,
+      "Ten": "Tỉnh Nam Định",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 37,
+      "Ten": "Tỉnh Ninh Bình",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 38,
+      "Ten": "Tỉnh Thanh Hóa",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 40,
+      "Ten": "Tỉnh Nghệ An",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 42,
+      "Ten": "Tỉnh Hà Tĩnh",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 44,
+      "Ten": "Tỉnh Quảng Bình",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 45,
+      "Ten": "Tỉnh Quảng Trị",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 46,
+      "Ten": "Tỉnh Thừa Thiên Huế",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 48,
+      "Ten": "Thành phố Đà Nẵng",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 49,
+      "Ten": "Tỉnh Quảng Nam",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 51,
+      "Ten": "Tỉnh Quảng Ngãi",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 52,
+      "Ten": "Tỉnh Bình Định",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 54,
+      "Ten": "Tỉnh Phú Yên",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 56,
+      "Ten": "Tỉnh Khánh Hòa",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 58,
+      "Ten": "Tỉnh Ninh Thuận",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 60,
+      "Ten": "Tỉnh Bình Thuận",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 62,
+      "Ten": "Tỉnh Kon Tum",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 64,
+      "Ten": "Tỉnh Gia Lai",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 66,
+      "Ten": "Tỉnh Đắk Lắk",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 67,
+      "Ten": "Tỉnh Đắk Nông",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 68,
+      "Ten": "Tỉnh Lâm Đồng",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 70,
+      "Ten": "Tỉnh Bình Phước",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 72,
+      "Ten": "Tỉnh Tây Ninh",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 74,
+      "Ten": "Tỉnh Bình Dương",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 75,
+      "Ten": "Tỉnh Đồng Nai",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 77,
+      "Ten": "Tỉnh Bà Rịa - Vũng Tàu",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 79,
+      "Ten": "Thành phố Hồ Chí Minh",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 80,
+      "Ten": "Tỉnh Long An",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 82,
+      "Ten": "Tỉnh Tiền Giang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 83,
+      "Ten": "Tỉnh Bến Tre",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 84,
+      "Ten": "Tỉnh Trà Vinh",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 86,
+      "Ten": "Tỉnh Vĩnh Long",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 87,
+      "Ten": "Tỉnh Đồng Tháp",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 89,
+      "Ten": "Tỉnh An Giang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 91,
+      "Ten": "Tỉnh Kiên Giang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 92,
+      "Ten": "Thành phố Cần Thơ",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 93,
+      "Ten": "Tỉnh Hậu Giang",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 94,
+      "Ten": "Tỉnh Sóc Trăng",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 95,
+      "Ten": "Tỉnh Bạc Liêu",
+      "Cap": "TINH"
+    },
+    {
+      "MaDVHC": 96,
+      "Ten": "Tỉnh Cà Mau",
+      "Cap": "TINH"
+    }
+  ]
+}

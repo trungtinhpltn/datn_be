@@ -1,0 +1,284 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["interactiveTransactions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProvinceType {
+  TINH
+  HUYEN
+  XA
+}
+
+enum Gender {
+  MALE
+  FEMALE
+}
+
+enum TableFoodStatus {
+  FREE
+  PENDING
+  ACTIVE
+}
+
+enum BillStatus {
+  PENDING
+  CONFIRM
+}
+
+enum PaymentMethod {
+  ATM
+  CASH
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  name      String
+  username  String    @unique(map: "User_username_key")
+  email     String    @unique(map: "User_email_key")
+  password  String
+  role      String    @default("user")
+  active    Boolean   @default(true)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime? @updatedAt
+  hashedRt  String?
+  Employee  Employee?
+}
+
+model Province {
+  id       Int          @id @default(autoincrement())
+  code     String
+  name     String
+  type     ProvinceType
+  parentId Int?
+
+  parent             Province?    @relation(name: "Parent", fields: [parentId], references: [id], map: "Province_parentId_fkey")
+  children           Province[]   @relation(name: "Parent")
+  RestaurantProvince Restaurant[] @relation(name: "province")
+  RestaurantDistrict Restaurant[] @relation(name: "district")
+  Employee           Employee[]
+}
+
+model Restaurant {
+  id            Int         @id @default(autoincrement())
+  name          String
+  addressDetail String
+  provinceId    Int
+  districtId    Int
+  createdAt     DateTime    @default(now())
+  active        Boolean     @default(true)
+  isDelete      Boolean     @default(false)
+  Province      Province    @relation(name: "province", fields: [provinceId], references: [id], map: "Province_provinceId_fkey")
+  District      Province    @relation(name: "district", fields: [districtId], references: [id], map: "Province_districtId_fkey")
+  TableFood     TableFood[]
+  MenuItem      MenuItem[]
+  Order         Order[]
+  Employee      Employee[]
+  Bills         Bill[]
+}
+
+// model TableType {
+//   id               Int         @id @default(autoincrement())
+//   name             String
+//   description      String
+//   prePaymentAmount String
+//   TableFood        TableFood[]
+// }
+
+model TableFood {
+  id               Int             @id @default(autoincrement())
+  name             String
+  description      String
+  prePaymentAmount Float           @default(0)
+  restaurantId     Int
+  status           TableFoodStatus
+  Restaurant       Restaurant      @relation(fields: [restaurantId], references: [id], map: "Restaurant_tablefood_fkey")
+  isDelete         Boolean         @default(false)
+  orderId          Int?
+  OrderNext        Order?          @relation(name: "order_next", fields: [orderId], references: [id], map: "Tablefoor_order_fkey")
+  Order            Order[]
+  BillTableOrder   BillTableOrder?
+}
+
+model MenuCategory {
+  id          Int        @id @default(autoincrement())
+  name        String
+  description String
+  createdAt   DateTime   @default(now())
+  MenuItem    MenuItem[]
+  isDelete    Boolean    @default(false)
+}
+
+model MenuUnit {
+  id          Int        @id @default(autoincrement())
+  name        String
+  description String
+  createdAt   DateTime   @default(now())
+  MenuItem    MenuItem[]
+  isDelete    Boolean    @default(false)
+}
+
+model MenuItem {
+  id            Int          @id @default(autoincrement())
+  name          String
+  description   String
+  price         Float        @default(0)
+  discountPrice Float        @default(0)
+  image         String
+  createdAt     DateTime     @default(now())
+  categoryId    Int
+  isDelete      Boolean      @default(false)
+  Category      MenuCategory @relation(fields: [categoryId], references: [id], map: "MenuCategory_menuitem_fkey")
+  unitId        Int
+  MenuUnit      MenuUnit     @relation(fields: [unitId], references: [id], map: "MenuUnit_menuitem_fkey")
+  restaurantId  Int
+  Restaurant    Restaurant   @relation(fields: [restaurantId], references: [id], map: "Restaurant_menuitem_fkey")
+  billItems     BillItem[]
+}
+
+model Order {
+  id             Int         @id @default(autoincrement())
+  name           String
+  phone          String
+  email          String
+  date           String
+  time           String
+  key            String      @unique(map: "Order_key")
+  person         Int
+  children       Int
+  createdAt      DateTime    @default(now())
+  confirm        Boolean     @default(false)
+  isDelete       Boolean     @default(false)
+  restaurantId   Int
+  Restaurant     Restaurant  @relation(fields: [restaurantId], references: [id], map: "Restaurant_order_fkey")
+  tableId        Int?
+  TableFood      TableFood?  @relation(fields: [tableId], references: [id], map: "TableFood_order_fkey")
+  TableFoodOrder TableFood[] @relation(name: "order_next")
+}
+
+model Bill {
+  id             Int             @id @default(autoincrement())
+  createdAt      DateTime        @default(now())
+  exportTime     DateTime        @default(now())
+  billItems      BillItem[]
+  customerId     Int?
+  paymentMethod  PaymentMethod?
+  totalPrice     Float           @default(0)
+  discount       Int             @default(0)
+  paymentPrice   Float           @default(0)
+  customerPay    Float           @default(0)
+  giveBack       Float           @default(0)
+  taxPay         Float           @default(0)
+  status         BillStatus      @default(PENDING)
+  Customer       Customer?       @relation(fields: [customerId], references: [id], map: "Bill_customer_fkey")
+  billTableOrder BillTableOrder?
+  Restaurant     Restaurant?     @relation(fields: [restaurantId], references: [id], map: "Bill_restaurant_fkey")
+  restaurantId   Int?
+}
+
+model BillItem {
+  id         Int       @id @default(autoincrement())
+  itemId     Int
+  quantity   Int       @default(1)
+  totalPrice Float     @default(0)
+  billId     Int
+  createdAt  DateTime  @default(now())
+  Bill       Bill      @relation(fields: [billId], references: [id], map: "Bill_billitem_fkey")
+  MenuItem   MenuItem? @relation(fields: [itemId], references: [id], map: "BillItem_menuitem_fkey")
+}
+
+model Customer {
+  id    Int    @id @default(autoincrement())
+  name  String
+  phone String
+  Bill  Bill[]
+}
+
+model BillTableOrder {
+  id      Int       @id @default(autoincrement())
+  tableId Int       @unique
+  billId  Int       @unique
+  Bill    Bill      @relation(fields: [billId], references: [id])
+  Table   TableFood @relation(fields: [tableId], references: [id])
+}
+
+model Employee {
+  id           Int       @id @default(autoincrement())
+  name         String?
+  phone        String?
+  dateOfBirth  DateTime?
+  placeOfBirth String?
+  nation       String?
+  from         String?
+  idNumber     String?
+  learn        String?
+  address      String?
+  provinceId   Int?
+  districtId   Int?
+
+  image String?
+
+  restaurantId Int?
+  position     String?
+  active       Boolean @default(true)
+
+  email String
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime? @updatedAt
+
+  type         String?
+  dateContract DateTime?
+  wawe         Float?    @default(0)
+  trialTime    Int?
+
+  userId Int? @unique
+
+  User         User?          @relation(fields: [userId], references: [id], map: "Employee_User_fkey")
+  Restaurant   Restaurant?    @relation(fields: [restaurantId], references: [id], map: "Employee_restaurant_fkey")
+  Province     Province?      @relation(fields: [provinceId], references: [id])
+  Shift        Shift?
+  HistoryShift HistoryShift[]
+}
+
+model Shift {
+  id         Int      @id @default(autoincrement())
+  employeeId Int      @unique
+  Employee   Employee @relation(fields: [employeeId], references: [id])
+  monday     Int[]    @default([])
+  tuesday    Int[]    @default([])
+  wednesday  Int[]    @default([])
+  thursday   Int[]    @default([])
+  friday     Int[]    @default([])
+  saturday   Int[]    @default([])
+  sunday     Int[]    @default([])
+}
+
+model HistoryShift {
+  id           Int       @id @default(autoincrement())
+  employeeId   Int
+  Employee     Employee  @relation(fields: [employeeId], references: [id])
+  startDate    String
+  endDate      String
+  updatedAt    DateTime?
+  msg          String?
+  year         Int
+  monday       Int[]
+  tuesday      Int[]
+  wednesday    Int[]
+  thursday     Int[]
+  friday       Int[]
+  saturday     Int[]
+  sunday       Int[]
+  restaurantId Int?
+}
+
+model Role {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String
+}
