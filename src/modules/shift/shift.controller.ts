@@ -32,6 +32,11 @@ export class ShiftController {
   create(@Body() data: CreateShiftDto) {
     return this.shiftService.create(data);
   }
+  @Post("/createHisShift")
+  @UseGuards(AccessTokenGuard)
+  createHisShift(@Body() data: any) {
+    return this.shiftService.createHisShiftByEmp(data);
+  }
 
   @Put("/updateHisShift/:id")
   @UseGuards(AccessTokenGuard)

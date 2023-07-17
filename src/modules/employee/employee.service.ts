@@ -60,7 +60,7 @@ export class EmployeeService {
     });
   }
 
-  async findAll({ page, size, sort, q, position, restaurant_id }: QueryEmployeeParams) {
+  async findAll({ page, size, sort, q, position, restaurant_id, active }: QueryEmployeeParams) {
     const { skip, take, orderBy } = takeSkipOrderByConvert({ page, size, sort });
     const where = {};
 
@@ -70,7 +70,9 @@ export class EmployeeService {
     if (position) {
       where["position"] = position;
     }
-
+    if (active) {
+      where["active"] = active > 0 ? true : false;
+    }
     const data = await this.prisma.employee.findMany({
       include: { Restaurant: true },
       where: {
@@ -90,13 +92,19 @@ export class EmployeeService {
     return { data, total };
   }
 
-  async getEmployeee() {
+  async getEmployeee(restaurantId?: number) {
+    const where = {};
+    if (restaurantId) {
+      where["restaurantId"] = restaurantId;
+    }
     return await this.prisma.employee.findMany({
       where: {
-        active: true
+        active: true,
+        ...where
       },
       select: {
         id: true,
+        name: true,
         restaurantId: true
       },
       orderBy: {

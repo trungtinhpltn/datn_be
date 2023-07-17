@@ -199,12 +199,12 @@ export class OrderService {
       .catch((error) => {
         throw error;
       });
-    // res?.key &&
-    //   (await this.mailService.sendConfirmation({
-    //     email: data?.email,
-    //     name: data?.name,
-    //     key: res?.key
-    //   }));
+    res?.key &&
+      (await this.mailService.sendConfirmation({
+        email: data?.email,
+        name: data?.name,
+        key: res?.key
+      }));
     return plainToClass(OrderEntity, res);
   }
 
@@ -229,12 +229,12 @@ export class OrderService {
         data: {
           isDelete: true
         }
+      }),
+      this.mailService.sendCancelOrder({
+        email: check?.email,
+        name: check?.name,
+        msg: msg || "Hết bàn trong thời gian bạn đã đặt."
       })
-      // this.mailService.sendCancelOrder({
-      //   email: check?.email,
-      //   name: check?.name,
-      //   msg: msg || "Hết bàn trong thời gian bạn đã đặt."
-      // })
     ]);
     return true;
   }
@@ -315,12 +315,12 @@ export class OrderService {
         ...data
       }
     });
-    // !check.confirm &&
-    //   (await this.mailService.sendConfirmOrder({
-    //     name: check.name,
-    //     key: check.key,
-    //     email: check.email
-    //   }));
+    !check.confirm &&
+      (await this.mailService.sendConfirmOrder({
+        name: check.name,
+        key: check.key,
+        email: check.email
+      }));
     return true;
   }
 }

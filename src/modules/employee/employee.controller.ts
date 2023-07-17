@@ -26,6 +26,9 @@ export class QueryEmployeeParams extends IQuery {
     message: "Dữ liệu đầu vào không hợp lệ"
   })
   restaurant_id: number;
+  @IsOptional()
+  @IsNumber()
+  active?: number;
 }
 
 @Controller({
