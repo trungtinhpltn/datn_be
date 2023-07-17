@@ -74,4 +74,10 @@ export class HisShiftService {
       data: data
     });
   }
+
+  async deleteByEmp(empId: number) {
+    return this.prisma.historyShift.deleteMany({
+      where: { employeeId: empId }
+    });
+  }
 }

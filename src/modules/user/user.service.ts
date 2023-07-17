@@ -89,10 +89,12 @@ export class UserService {
       name: user.name,
       email: user.email,
       active: user.active,
+      role: user.role,
       Employee: {
         id: user.Employee.id,
         image: user.Employee.image,
-        position: user.Employee.position
+        position: user.Employee.position,
+        restaurantId: user.Employee.restaurantId
       }
     };
     return data;
@@ -193,5 +195,9 @@ export class UserService {
         pageCount: Math.ceil(parseInt(total + "") / size)
       }
     };
+  }
+
+  async deleteUser(id: number) {
+    return this.prisma.user.delete({ where: { id } });
   }
 }

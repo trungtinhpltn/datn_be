@@ -1,23 +1,21 @@
 import {
-  Controller,
-  Get,
-  Post,
   Body,
-  Patch,
-  Param,
+  Controller,
   Delete,
+  Get,
+  Param,
+  Patch,
+  Post,
   Query,
-  UseInterceptors,
-  UploadedFile
+  UploadedFile,
+  UseInterceptors
 } from "@nestjs/common";
-import { EmployeeService } from "./employee.service";
-import { CreateEmployeeDto } from "./dto/create-employee.dto";
-import { UpdateEmployeeDto } from "./dto/update-employee.dto";
-import { IQuery } from "src/dto/query";
 import { FileInterceptor } from "@nestjs/platform-express";
-import { defaultUploadStorage, uploadStorage } from "src/common/utils";
-import { imageFileFilter } from "src/helper/imageFileFilter";
 import { IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
+import { uploadStorage } from "src/common/utils";
+import { IQuery } from "src/dto/query";
+import { imageFileFilter } from "src/helper/imageFileFilter";
+import { EmployeeService } from "./employee.service";
 
 export class QueryEmployeeParams extends IQuery {
   @IsOptional()

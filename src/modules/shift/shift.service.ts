@@ -1,4 +1,4 @@
-import { Injectable } from "@nestjs/common";
+import { Injectable, Inject, forwardRef } from "@nestjs/common";
 import { EmployeeService } from "../employee/employee.service";
 import { PrismaService } from "../prisma/prisma.service";
 import { CreateShiftDto, GetByUserIdQuery, GetHisShiftByRestaurant } from "./dto/shift.dto";
@@ -8,7 +8,7 @@ import { HisShiftService } from "../his-shift/his-shift.service";
 export class ShiftService {
   constructor(
     private prisma: PrismaService,
-    private employeeService: EmployeeService,
+    @Inject(forwardRef(() => EmployeeService)) private employeeService: EmployeeService,
     private hisShiftService: HisShiftService
   ) {}
 
@@ -123,5 +123,13 @@ export class ShiftService {
 
   async updateHisShift(id: number, data: any) {
     return await this.hisShiftService.update(id, data);
+  }
+
+  async deleteByEmpId(id: number) {
+    return this.prisma.shift.deleteMany({
+      where: {
+        employeeId: id
+      }
+    });
   }
 }

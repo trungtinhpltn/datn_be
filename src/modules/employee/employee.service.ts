@@ -1,15 +1,22 @@
-import { Injectable, BadRequestException } from "@nestjs/common";
+import { BadRequestException, Inject, Injectable, forwardRef } from "@nestjs/common";
+import { takeSkipOrderByConvert } from "src/common/utils";
+import { POSITION_ROLE } from "src/constants/employee";
+import { HisShiftService } from "../his-shift/his-shift.service";
+import { PrismaService } from "../prisma/prisma.service";
+import { ShiftService } from "../shift/shift.service";
+import { UserService } from "../user/user.service";
 import { CreateEmployeeDto } from "./dto/create-employee.dto";
 import { UpdateEmployeeDto } from "./dto/update-employee.dto";
 import { QueryEmployeeParams } from "./employee.controller";
-import { PrismaService } from "../prisma/prisma.service";
-import { takeSkipOrderByConvert } from "src/common/utils";
-import { UserService } from "../user/user.service";
-import { POSITION_ROLE } from "src/constants/employee";
 
 @Injectable()
 export class EmployeeService {
-  constructor(private prisma: PrismaService, private userService: UserService) {
+  constructor(
+    private prisma: PrismaService,
+    private userService: UserService,
+    @Inject(forwardRef(() => ShiftService)) private shiftService: ShiftService,
+    private hisShiftService: HisShiftService
+  ) {
     //log
   }
 
@@ -138,7 +145,13 @@ export class EmployeeService {
     });
   }
 
-  remove(id: number) {
+  async remove(id: number) {
+    const emp = await this.prisma.employee.findFirst({ where: { id } });
+    if (!emp) {
+      throw new BadRequestException("Nhân viên không tồn tại");
+    }
+    await Promise.all([this.userService.deleteUser(emp.userId), this.shiftService.deleteByEmpId(emp.id)]);
+    await this.hisShiftService.deleteByEmp(emp.id);
     return this.prisma.employee.delete({ where: { id } });
   }
 }

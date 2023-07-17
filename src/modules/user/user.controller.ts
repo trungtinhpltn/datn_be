@@ -15,14 +15,14 @@ export class UserController {
   constructor(private userService: UserService) {}
 
   @Post()
-  @UseGuards(AccessTokenGuard, RoleGuard("ADMIN"))
+  @UseGuards(AccessTokenGuard)
   create(@Body() createUserDto: CreateUserDto) {
     return this.userService.create(createUserDto);
   }
 
   @Post("changePassword/:id")
   @HttpCode(HttpStatus.OK)
-  @UseGuards(AccessTokenGuard, RoleGuard("ADMIN"))
+  @UseGuards(AccessTokenGuard)
   changePasswordUser(@Param("id") uid: number, @Body() { newPassword }: { newPassword: string }): Promise<boolean> {
     return this.userService.changePasswordUser(uid, newPassword);
   }
@@ -34,19 +34,19 @@ export class UserController {
   }
 
   @Get()
-  @UseGuards(AccessTokenGuard, RoleGuard("ADMIN"))
+  @UseGuards(AccessTokenGuard)
   getUserList(@Query() query: GetUserDto) {
     return this.userService.getUserList(query);
   }
 
   @Get(":id")
-  @UseGuards(AccessTokenGuard, RoleGuard(["ADMIN", "USER"]))
+  @UseGuards(AccessTokenGuard)
   getUserById(@Param("id") id: number) {
     return this.userService.findById(id);
   }
 
   @Put("me")
-  @UseGuards(AccessTokenGuard, RoleGuard(["ADMIN", "USER"]))
+  @UseGuards(AccessTokenGuard)
   updateMe(@GetCurrentUser("id") userId: number, @Body() dto: EditUserDto) {
     return this.userService.editUser(userId, dto);
   }
