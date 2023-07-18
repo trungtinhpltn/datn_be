@@ -11,13 +11,11 @@ import { AccessTokenGuard } from "src/guards";
 export class RestaurantController {
   constructor(private restaurantService: RestaurantService) {}
   @Get()
-  @UseGuards(AccessTokenGuard)
   findAllByQuery(@Query() query: GetRestaurantQuery) {
     return this.restaurantService.findByQuery(query);
   }
 
   @Get("/all")
-  @UseGuards(AccessTokenGuard)
   findAll() {
     return this.restaurantService.find();
   }
