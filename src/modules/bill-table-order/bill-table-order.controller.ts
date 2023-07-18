@@ -1,4 +1,5 @@
-import { Body, Controller, Get, Delete, Param } from "@nestjs/common";
+import { Controller, Delete, Get, Param, UseGuards } from "@nestjs/common";
+import { AccessTokenGuard } from "src/guards";
 import { BillTableOrderService } from "./bill-table-order.service";
 
 @Controller({
@@ -14,6 +15,7 @@ export class BillTableOrderController {
   }
 
   @Delete(":id")
+  @UseGuards(AccessTokenGuard)
   delete(@Param("id") id: number) {
     return this.billTableOrderService.delete(id);
   }

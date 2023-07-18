@@ -8,7 +8,8 @@ import {
   Post,
   Query,
   UploadedFile,
-  UseInterceptors
+  UseInterceptors,
+  UseGuards
 } from "@nestjs/common";
 import { FileInterceptor } from "@nestjs/platform-express";
 import { IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
@@ -16,6 +17,7 @@ import { uploadStorage } from "src/common/utils";
 import { IQuery } from "src/dto/query";
 import { imageFileFilter } from "src/helper/imageFileFilter";
 import { EmployeeService } from "./employee.service";
+import { AccessTokenGuard } from "src/guards";
 
 export class QueryEmployeeParams extends IQuery {
   @IsOptional()
@@ -45,6 +47,7 @@ export class EmployeeController {
       fileFilter: imageFileFilter
     })
   )
+  @UseGuards(AccessTokenGuard)
   create(@Body() createEmployeeDto: any, @UploadedFile() image: Express.Multer.File) {
     if (image) {
       createEmployeeDto.image = "/uploads/employee/" + image.filename;
@@ -53,16 +56,19 @@ export class EmployeeController {
   }
 
   @Get()
+  @UseGuards(AccessTokenGuard)
   findAll(@Query() { page, size, sort, q, position, restaurant_id }: QueryEmployeeParams) {
     return this.employeeService.findAll({ page, size, sort, q, position, restaurant_id });
   }
 
   @Get(":id")
+  @UseGuards(AccessTokenGuard)
   findOne(@Param("id") id: string) {
     return this.employeeService.findOne(+id);
   }
 
   @Patch(":id")
+  @UseGuards(AccessTokenGuard)
   @UseInterceptors(
     FileInterceptor("image", {
       storage: uploadStorage("./public/uploads/employee"),
@@ -77,6 +83,7 @@ export class EmployeeController {
   }
 
   @Delete(":id")
+  @UseGuards(AccessTokenGuard)
   remove(@Param("id") id: string) {
     return this.employeeService.remove(+id);
   }

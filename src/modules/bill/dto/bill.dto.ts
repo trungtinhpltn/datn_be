@@ -62,4 +62,27 @@ export class UpdateBill {
     message: "Dữ liệu đầu vào không hợp lệ"
   })
   paymentMethod: PaymentMethod;
+
+  @IsNumber()
+  @IsOptional()
+  exportDate: number;
+}
+
+export class GetReportQuery {
+  @IsNumber()
+  @IsNotEmpty({
+    message: "Dữ liệu đầu vào không hợp lệ"
+  })
+  from: number;
+
+  @IsNumber()
+  @IsNotEmpty({
+    message: "Dữ liệu đầu vào không hợp lệ"
+  })
+  to: number;
+  @IsNumber()
+  @IsNotEmpty({
+    message: "Dữ liệu đầu vào không hợp lệ"
+  })
+  restaurant_id: number;
 }

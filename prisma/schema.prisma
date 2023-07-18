@@ -164,6 +164,7 @@ model Bill {
   id             Int             @id @default(autoincrement())
   createdAt      DateTime        @default(now())
   exportTime     DateTime        @default(now())
+  exportDate     Float           @default(0)
   billItems      BillItem[]
   customerId     Int?
   paymentMethod  PaymentMethod?

@@ -1,7 +1,7 @@
 import { Injectable, BadRequestException } from "@nestjs/common";
 import { PrismaService } from "../prisma/prisma.service";
 import { CustomerService } from "../customer/customer.service";
-import { GetBillQuery, ICreateBill, UpdateBill } from "./dto/bill.dto";
+import { GetBillQuery, GetReportQuery, ICreateBill, UpdateBill } from "./dto/bill.dto";
 import { BillTableOrderService } from "../bill-table-order/bill-table-order.service";
 import { TableFoodService } from "../table-food/table-food.service";
 import { TableFoodStatus } from "src/constants/tablefood";
@@ -40,7 +40,10 @@ export class BillService {
           ...condition
         },
         skip,
-        take: +size
+        take: +size,
+        orderBy: {
+          createdAt: "desc"
+        }
       }),
       this.prisma.bill.count({
         where: {
@@ -52,6 +55,29 @@ export class BillService {
       total,
       data
     };
+  }
+
+  async getReport(query: GetReportQuery) {
+    const { from, to, restaurant_id } = query;
+    let start = from;
+    const data: any = [];
+    do {
+      const res = await this.prisma.bill.findMany({
+        where: {
+          restaurantId: restaurant_id,
+          status: BillStatus.CONFIRM,
+          exportDate: {
+            equals: start
+          }
+        }
+      });
+      if (res?.length > 0) {
+        const totalP = res?.reduce((p, bill) => p + bill.paymentPrice, 0);
+        data.push({ date: start, totalPrice: totalP, totalBill: res?.length });
+      }
+      start += 86400;
+    } while (start <= to);
+    return data;
   }
 
   async getById(id: number) {
@@ -158,6 +184,7 @@ export class BillService {
           customerPay: data.customerPay,
           giveBack: data.customerPay - data.paymentPrice,
           exportTime: new Date(),
+          exportDate: data.exportDate || 0,
           status: BillStatus.CONFIRM,
           totalPrice: data.totalPrice,
           taxPay: data.taxPay

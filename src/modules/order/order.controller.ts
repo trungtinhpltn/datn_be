@@ -1,6 +1,7 @@
-import { Body, Controller, Get, Param, Post, Delete, Query, Put } from "@nestjs/common";
+import { Body, Controller, Get, Param, Post, Delete, Query, Put, UseGuards } from "@nestjs/common";
 import { CreateOrderDto, GetOrderQuery, GetTableOrderQuery } from "./dto/order.dto";
 import { OrderService } from "./order.service";
+import { AccessTokenGuard } from "src/guards";
 
 @Controller({
   path: "/order",
@@ -14,16 +15,19 @@ export class OrderController {
   }
 
   @Get("/getOrder")
+  @UseGuards(AccessTokenGuard)
   findAll(@Query() query: GetOrderQuery) {
     return this.orderService.findAll(query);
   }
 
   @Get("/getById/:id")
+  @UseGuards(AccessTokenGuard)
   getById(@Param("id") id: number) {
     return this.orderService.getById(id);
   }
 
   @Get("/getTableOrder/:id")
+  @UseGuards(AccessTokenGuard)
   getTableOrder(@Param("id") id: number, @Query() query: GetTableOrderQuery) {
     return this.orderService.getTableOrder(id, query);
   }
@@ -38,15 +42,19 @@ export class OrderController {
   }
 
   @Delete("/cancelOrder/:id")
+  @UseGuards(AccessTokenGuard)
   cancelOrder(@Param("id") id: number, @Query() query: any) {
     return this.orderService.cancelOrder(id, query);
   }
 
   @Put(":id")
+  @UseGuards(AccessTokenGuard)
   update(@Param("id") id: number, @Query() query: any, @Body() data: CreateOrderDto) {
     return this.orderService.update(id, query, data);
   }
+
   @Put("/updateSelectTable/:id")
+  @UseGuards(AccessTokenGuard)
   updateSelectTable(@Param("id") id: number, @Body() data: CreateOrderDto) {
     return this.orderService.updateSelectTable(id, data);
   }
