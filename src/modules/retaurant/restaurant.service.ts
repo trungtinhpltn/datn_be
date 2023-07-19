@@ -44,27 +44,26 @@ export class RestaurantService {
     }
 
     const conditionSort: any = [{ createdAt: "asc" }];
-    const [data, total] = await Promise.all([
-      this.prisma.restaurant.findMany({
-        where: {
-          ...condition,
-          isDelete: false
-        },
-        orderBy: [...conditionSort],
-        skip,
-        take: +size,
-        include: {
-          Province: true,
-          District: true
-        }
-      }),
-      this.prisma.restaurant.count({
-        where: {
-          ...condition,
-          isDelete: false
-        }
-      })
-    ]);
+    const data = await this.prisma.restaurant.findMany({
+      where: {
+        ...condition,
+        isDelete: false
+      },
+      orderBy: [...conditionSort],
+      skip,
+      take: +size,
+      include: {
+        Province: true,
+        District: true
+      }
+    });
+    const total = await this.prisma.restaurant.count({
+      where: {
+        ...condition,
+        isDelete: false
+      }
+    });
+
     return {
       total,
       data
