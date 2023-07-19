@@ -1,5 +1,4 @@
-import { Employee } from "./../employee/entities/employee.entity";
-import { ConflictException, ForbiddenException, Injectable } from "@nestjs/common";
+import { BadRequestException, ConflictException, ForbiddenException, Injectable } from "@nestjs/common";
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime";
 import * as argon from "argon2";
 import { plainToClass } from "class-transformer";
@@ -79,7 +78,9 @@ export class UserService {
         Employee: true
       }
     });
-
+    if (!user) {
+      throw new BadRequestException("Dữ liệu đầu vào không hợp lệ");
+    }
     if (user.role === "ADMIN") {
       return user;
     }
