@@ -1,5 +1,5 @@
 import { IsEnum, IsNotEmpty } from "class-validator";
-import { CardOrientation } from "src/constants/card-type";
+import { CardOrientation } from "../../../constants/card-type";
 
 export class EkycDto {
   @IsNotEmpty({ message: "type is required" })

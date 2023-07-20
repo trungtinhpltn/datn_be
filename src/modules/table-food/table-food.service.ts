@@ -1,7 +1,7 @@
 import { BadRequestException, ConflictException, Inject, Injectable, forwardRef } from "@nestjs/common";
 import { Interval } from "@nestjs/schedule";
 import { plainToClass } from "class-transformer";
-import { TableFoodStatus } from "src/constants/tablefood";
+import { TableFoodStatus } from "../../constants/tablefood";
 import { PrismaService } from "../prisma/prisma.service";
 import { OrderService } from "./../order/order.service";
 import { CreateTableFoodDto } from "./dto/create-table-food.dto";

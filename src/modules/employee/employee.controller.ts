@@ -14,7 +14,7 @@ import {
 import { FileInterceptor } from "@nestjs/platform-express";
 import { IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
 import { IQuery } from "../../dto/query";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 import { CloudinaryService } from "../cloudinary/cloudinary.service";
 import { EmployeeService } from "./employee.service";
 

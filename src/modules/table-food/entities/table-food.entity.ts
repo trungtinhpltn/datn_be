@@ -1,4 +1,4 @@
-import { TableFoodStatus } from "src/constants/tablefood";
+import { TableFoodStatus } from "../../../constants/tablefood";
 
 export class TableFoodEnity {
   id: number;

@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import * as argon from "argon2";
-import { PrismaService } from "src/modules/prisma/prisma.service";
+import { PrismaService } from "../modules/prisma/prisma.service";
 import { BaseSeed } from "./common/base.seed";
 import UserAdminDatas from "./data/user-admin.json";
 

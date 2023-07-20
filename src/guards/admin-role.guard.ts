@@ -1,6 +1,6 @@
 import { CanActivate, ExecutionContext, HttpException, HttpStatus, mixin, Type } from "@nestjs/common";
-import { UserService } from "src/modules/user/user.service";
-import { PrismaService } from "src/modules/prisma/prisma.service";
+import { UserService } from "../modules/user/user.service";
+import { PrismaService } from "../modules/prisma/prisma.service";
 
 const RoleGuard = (role: string | string[]): Type<CanActivate> => {
   class RoleGuardMixin implements CanActivate {

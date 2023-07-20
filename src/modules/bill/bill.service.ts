@@ -4,7 +4,7 @@ import { CustomerService } from "../customer/customer.service";
 import { GetBillQuery, GetReportQuery, ICreateBill, UpdateBill } from "./dto/bill.dto";
 import { BillTableOrderService } from "../bill-table-order/bill-table-order.service";
 import { TableFoodService } from "../table-food/table-food.service";
-import { TableFoodStatus } from "src/constants/tablefood";
+import { TableFoodStatus } from "../../constants/tablefood";
 import { BillItemService } from "../bill-item/bill-item.service";
 import { BillStatus } from "@prisma/client";
 

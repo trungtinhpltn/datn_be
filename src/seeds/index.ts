@@ -1,4 +1,4 @@
-import { PrismaService } from "src/modules/prisma/prisma.service";
+import { PrismaService } from "../modules/prisma/prisma.service";
 import { BaseSeed } from "./common/base.seed";
 import { ProvinceSeed } from "./province.seed";
 import { UserAdminSeed } from "./user-admin.seed";

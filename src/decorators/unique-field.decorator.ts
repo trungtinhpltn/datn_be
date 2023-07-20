@@ -6,8 +6,8 @@ import {
   ValidatorConstraintInterface,
   ValidationArguments
 } from "class-validator";
-import { ModalType } from "src/constants/model-type";
-import { PrismaService } from "src/modules/prisma/prisma.service";
+import { ModalType } from "../constants/model-type";
+import { PrismaService } from "../modules/prisma/prisma.service";
 
 @ValidatorConstraint({ async: true })
 @Injectable()

@@ -2,7 +2,7 @@ import { BadRequestException, ConflictException, ForbiddenException, Injectable 
 import { PrismaClientKnownRequestError } from "@prisma/client/runtime";
 import * as argon from "argon2";
 import { plainToClass } from "class-transformer";
-import { IOptionCommon } from "src/interfaces/common";
+import { IOptionCommon } from "../../interfaces/common";
 import { PrismaService } from "../prisma/prisma.service";
 import { EditUserDto } from "./dto";
 import { CreateUserDto } from "./dto/create-user.dto";

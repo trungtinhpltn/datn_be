@@ -1,6 +1,6 @@
 import { ConflictException, Injectable } from "@nestjs/common";
 import { plainToClass } from "class-transformer";
-import { sortQueryToObject } from "src/common/utils";
+import { sortQueryToObject } from "../../common/utils";
 import { PrismaService } from "../prisma/prisma.service";
 import { EditRestaurantDto } from "./dto";
 import { CreateRestaurantDto } from "./dto/create-restaurant.dto";
