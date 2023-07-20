@@ -36,9 +36,6 @@ import { CloudinaryModule } from "./modules/cloudinary/cloudinary.module";
       isGlobal: true
     }),
     AuthModule,
-    ServeStaticModule.forRoot({
-      rootPath: join(__dirname, "..", "public")
-    }),
     ConfigModule.forRoot({
       load: [() => configuration]
     }),

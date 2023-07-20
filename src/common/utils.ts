@@ -53,23 +53,6 @@ export const removeStartTrailingSlash = (url: string) => {
   return url.startsWith("/") ? url.slice(1) : url;
 };
 
-export const defaultUploadStorage: StorageEngine = diskStorage({
-  destination: configuration.uploadPath,
-  filename(req: Request, file: Express.Multer.File, callback: (error: Error | null, filename: string) => void) {
-    const newName = `${new Date().getTime()}-${file.originalname.slice(-32)}`;
-    callback(null, newName);
-  }
-});
-
-export const uploadStorage = (path: string): StorageEngine =>
-  diskStorage({
-    destination: path,
-    filename(req: Request, file: Express.Multer.File, callback: (error: Error | null, filename: string) => void) {
-      const newName = `${new Date().getTime()}-${file.originalname.slice(-32)}`.replace(/\s/gi, "-");
-      callback(null, newName);
-    }
-  });
-
 export const sortQueryToObject = (sortString: string) => {
   if (!sortString) return [];
   const sorts = sortString.split(",");
