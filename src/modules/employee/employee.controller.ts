@@ -18,6 +18,7 @@ import { IQuery } from "src/dto/query";
 import { imageFileFilter } from "src/helper/imageFileFilter";
 import { EmployeeService } from "./employee.service";
 import { AccessTokenGuard } from "src/guards";
+import { CloudinaryService } from "../cloudinary/cloudinary.service";
 
 export class QueryEmployeeParams extends IQuery {
   @IsOptional()
@@ -38,19 +39,18 @@ export class QueryEmployeeParams extends IQuery {
   version: "1"
 })
 export class EmployeeController {
-  constructor(private readonly employeeService: EmployeeService) {}
+  constructor(
+    private readonly employeeService: EmployeeService,
+    private readonly cloudinaryService: CloudinaryService
+  ) {}
 
   @Post()
-  @UseInterceptors(
-    FileInterceptor("image", {
-      storage: uploadStorage("./public/uploads/employee"),
-      fileFilter: imageFileFilter
-    })
-  )
+  @UseInterceptors(FileInterceptor("image"))
   @UseGuards(AccessTokenGuard)
-  create(@Body() createEmployeeDto: any, @UploadedFile() image: Express.Multer.File) {
+  async create(@Body() createEmployeeDto: any, @UploadedFile() image: Express.Multer.File) {
     if (image) {
-      createEmployeeDto.image = "/uploads/employee/" + image.filename;
+      const res = await this.cloudinaryService.uploadFile(image);
+      createEmployeeDto.image = res?.secure_url || "";
     }
     return this.employeeService.create(createEmployeeDto);
   }
@@ -69,15 +69,11 @@ export class EmployeeController {
 
   @Patch(":id")
   @UseGuards(AccessTokenGuard)
-  @UseInterceptors(
-    FileInterceptor("image", {
-      storage: uploadStorage("./public/uploads/employee"),
-      fileFilter: imageFileFilter
-    })
-  )
-  update(@Param("id") id: string, @Body() updateEmployeeDto: any, @UploadedFile() image: Express.Multer.File) {
+  @UseInterceptors(FileInterceptor("image"))
+  async update(@Param("id") id: string, @Body() updateEmployeeDto: any, @UploadedFile() image: Express.Multer.File) {
     if (image) {
-      updateEmployeeDto.image = "/uploads/employee/" + image.filename;
+      const res = await this.cloudinaryService.uploadFile(image);
+      updateEmployeeDto.image = res?.secure_url || "";
     }
     return this.employeeService.update(+id, updateEmployeeDto);
   }

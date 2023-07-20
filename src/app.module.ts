@@ -26,6 +26,7 @@ import { BillItemModule } from "./modules/bill-item/bill-item.module";
 import { CustomerModule } from "./modules/customer/customer.module";
 import { ShiftModule } from "./modules/shift/shift.module";
 import { UserModule } from "./modules/user/user.module";
+import { CloudinaryModule } from "./modules/cloudinary/cloudinary.module";
 
 @Module({
   imports: [
@@ -57,7 +58,8 @@ import { UserModule } from "./modules/user/user.module";
     BillItemModule,
     CustomerModule,
     ShiftModule,
-    UserModule
+    UserModule,
+    CloudinaryModule
   ],
   controllers: [AppController],
   providers: [AppService]
