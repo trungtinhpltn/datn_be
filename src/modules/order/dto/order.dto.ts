@@ -1,5 +1,5 @@
 import { IsBoolean, IsEmail, IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../../dto/query";
 
 export class GetOrderQuery extends IQuery {
   @IsString()

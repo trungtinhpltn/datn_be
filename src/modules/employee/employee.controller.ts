@@ -13,7 +13,7 @@ import {
 } from "@nestjs/common";
 import { FileInterceptor } from "@nestjs/platform-express";
 import { IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../dto/query";
 import { AccessTokenGuard } from "src/guards";
 import { CloudinaryService } from "../cloudinary/cloudinary.service";
 import { EmployeeService } from "./employee.service";

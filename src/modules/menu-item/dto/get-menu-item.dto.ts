@@ -1,5 +1,5 @@
 import { IsNumber, IsOptional } from "class-validator";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../../dto/query";
 
 export class GetMenuItemQuery extends IQuery {
   @IsNumber()

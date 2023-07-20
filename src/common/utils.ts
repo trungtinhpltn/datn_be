@@ -1,7 +1,7 @@
 import { randomUUID } from "crypto";
 import { Request } from "express";
 import { diskStorage, StorageEngine } from "multer";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../dto/query";
 import configuration from "../config/configuration";
 
 // export function decryptData(b64string: string): string {

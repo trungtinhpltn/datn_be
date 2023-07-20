@@ -1,6 +1,6 @@
 import { IsEnum, IsNotEmpty, IsNumber, IsOptional, IsString } from "class-validator";
 import { BillStatus, PaymentMethod } from "src/constants/bill";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../../dto/query";
 
 export interface ICreateBill {
   customer?: {

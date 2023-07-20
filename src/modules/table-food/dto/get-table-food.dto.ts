@@ -1,6 +1,6 @@
 import { IsEnum, IsNumber, IsOptional } from "class-validator";
 import { TableFoodStatus } from "src/constants/tablefood";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../../dto/query";
 
 export class GetTableFoodQuery extends IQuery {
   @IsEnum(TableFoodStatus, {

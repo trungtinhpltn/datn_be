@@ -1,5 +1,5 @@
 import { IsOptional, IsString } from "class-validator";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../../dto/query";
 
 export class EditCategory extends IQuery {
   @IsString()

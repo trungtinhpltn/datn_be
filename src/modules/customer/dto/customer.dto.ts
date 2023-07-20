@@ -1,5 +1,5 @@
 import { IsNotEmpty, IsString } from "class-validator";
-import { IQuery } from "src/dto/query";
+import { IQuery } from "../../../dto/query";
 
 export class ICreateCustomer {
   @IsString()
