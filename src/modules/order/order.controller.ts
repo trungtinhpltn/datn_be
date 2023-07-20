@@ -1,7 +1,7 @@
 import { Body, Controller, Get, Param, Post, Delete, Query, Put, UseGuards } from "@nestjs/common";
 import { CreateOrderDto, GetOrderQuery, GetTableOrderQuery } from "./dto/order.dto";
 import { OrderService } from "./order.service";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 
 @Controller({
   path: "/order",

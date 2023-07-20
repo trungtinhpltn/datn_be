@@ -1,7 +1,7 @@
 import { Controller, Post, Body, Get, Query, UseGuards, Put, Param } from "@nestjs/common";
 import { ShiftService } from "./shift.service";
 import { CreateShiftDto, GetByUserIdQuery, GetHisShiftByRestaurant } from "./dto/shift.dto";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 @Controller({
   path: "/shift",
   version: "1"

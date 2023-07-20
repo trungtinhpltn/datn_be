@@ -1,7 +1,7 @@
 import { Controller, Post, Body, Get, Delete, Param, Query, Put, UseGuards } from "@nestjs/common";
 import { BillService } from "./bill.service";
 import { GetBillQuery, GetReportQuery, UpdateBill } from "./dto/bill.dto";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 
 @Controller({
   path: "/bill",

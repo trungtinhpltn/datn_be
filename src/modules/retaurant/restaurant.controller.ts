@@ -3,7 +3,7 @@ import { Body, Controller, Post, Get, Query, Put, Param, Delete, UseGuards } fro
 import { CreateRestaurantDto } from "./dto/create-restaurant.dto";
 import { GetRestaurantQuery } from "./dto/get-restaurant.dto";
 import { RestaurantService } from "./restaurant.service";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 @Controller({
   path: "/restaurant",
   version: "1"

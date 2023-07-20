@@ -127,3 +127,4 @@ dist
 .pnp.*
 public/uploads/tmp/*
 public/uploads/employee/*
+.vercel

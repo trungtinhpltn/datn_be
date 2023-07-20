@@ -2,7 +2,7 @@ import { Body, Controller, Get, Post, Query, Param, Put, Delete, UseGuards } fro
 import { CreateMenuItemDto } from "./dto/create-menu-item.dto";
 import { GetMenuItemQuery } from "./dto/get-menu-item.dto";
 import { MenuItemService } from "./menu-item.service";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 @Controller({
   path: "/menu-item",
   version: "1"

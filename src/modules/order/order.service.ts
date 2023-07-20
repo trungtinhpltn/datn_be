@@ -1,7 +1,7 @@
 import { BadRequestException, Inject, Injectable, forwardRef } from "@nestjs/common";
 import { plainToClass } from "class-transformer";
-import { randomKey } from "src/common/utils";
-import { TIME_ORDER } from "src/constants/order";
+import { randomKey } from "../../common/utils";
+import { TIME_ORDER } from "../../constants/order";
 import { MailService } from "../mail/mail.service";
 import { PrismaService } from "../prisma/prisma.service";
 import { TableFoodService } from "../table-food/table-food.service";

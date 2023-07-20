@@ -1,8 +1,8 @@
 import { Body, Controller, HttpCode, HttpStatus, Post, UseGuards } from "@nestjs/common";
 
-import { GetCurrentUser } from "src/decorators";
-import { AccessTokenGuard, RefeshTokenGuard } from "src/guards";
-import RoleGuard from "src/guards/admin-role.guard";
+import { GetCurrentUser } from "../../decorators";
+import { AccessTokenGuard, RefeshTokenGuard } from "../../guards";
+import RoleGuard from "../../guards/admin-role.guard";
 import { AuthService } from "./auth.service";
 import { AuthDto } from "./dto";
 import { Tokens } from "./types";

@@ -1,7 +1,7 @@
 import { Body, Controller, Post, Get, Param, Put, Delete, UseGuards } from "@nestjs/common";
 import { MenuCategoryService } from "./menu-category.service";
 import { EditTableDto } from "../table-food/dto/edit-table-food.dto";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 @Controller({
   path: "/menu-category",
   version: "1"

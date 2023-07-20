@@ -3,5 +3,5 @@ export enum ModalType {
   AUTH = "auth",
   PARTNER = "partner",
   PACKAGE = "package",
-  SUBSCRIPTION = "subscription",
+  SUBSCRIPTION = "subscription"
 }

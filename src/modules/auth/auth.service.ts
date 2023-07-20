@@ -4,7 +4,7 @@ import { PrismaService } from "../prisma/prisma.service";
 import { JwtPayload, Tokens } from "./types";
 import * as argon from "argon2";
 import { JwtService } from "@nestjs/jwt";
-import configuration from "src/config/configuration";
+import configuration from "../../config/configuration";
 import { plainToClass } from "class-transformer";
 import { UserEntity } from "../user/entities/user.entity";
 

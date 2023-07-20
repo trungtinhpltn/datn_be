@@ -3,7 +3,7 @@ import { TableFoodService } from "./table-food.service";
 import { CreateTableFoodDto } from "./dto/create-table-food.dto";
 import { GetTableFoodQuery } from "./dto/get-table-food.dto";
 import { EditTableDto } from "./dto/edit-table-food.dto";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 
 @Controller({
   path: "/table-food",

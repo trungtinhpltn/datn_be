@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, Param, Post, Put, UseGuards } from "@nestjs/common";
 import { BillItemService } from "./bill-item.service";
 import { CreateBillItemDto } from "./dto/bill-item.dto";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 
 @Controller({
   path: "/bill-item",

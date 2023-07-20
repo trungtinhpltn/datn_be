@@ -1,5 +1,5 @@
 import { Controller, Delete, Get, Param, UseGuards } from "@nestjs/common";
-import { AccessTokenGuard } from "src/guards";
+import { AccessTokenGuard } from "../../guards";
 import { BillTableOrderService } from "./bill-table-order.service";
 
 @Controller({

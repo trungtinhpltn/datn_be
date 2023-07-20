@@ -1,7 +1,7 @@
 import { Body, Controller, Get, HttpCode, HttpStatus, Param, Post, Put, Query, UseGuards } from "@nestjs/common";
 import { GetCurrentUser } from "../../decorators";
-import { AccessTokenGuard } from "src/guards";
-import RoleGuard from "src/guards/admin-role.guard";
+import { AccessTokenGuard } from "../../guards";
+import RoleGuard from "../../guards/admin-role.guard";
 import { EditUserDto } from "./dto";
 import { CreateUserDto } from "./dto/create-user.dto";
 import { GetUserDto } from "./dto/get-user.dto";

@@ -1,6 +1,6 @@
 import { BadRequestException, Inject, Injectable, forwardRef } from "@nestjs/common";
-import { takeSkipOrderByConvert } from "src/common/utils";
-import { POSITION_ROLE } from "src/constants/employee";
+import { takeSkipOrderByConvert } from "../../common/utils";
+import { POSITION_ROLE } from "../../constants/employee";
 import { HisShiftService } from "../his-shift/his-shift.service";
 import { PrismaService } from "../prisma/prisma.service";
 import { ShiftService } from "../shift/shift.service";

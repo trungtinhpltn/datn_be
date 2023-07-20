@@ -1,8 +1,8 @@
 import { BadRequestException, Controller, Post, UploadedFile, UseInterceptors, UseGuards } from "@nestjs/common";
 import { FileInterceptor } from "@nestjs/platform-express";
-import { AccessTokenGuard } from "src/guards";
-import { defaultUploadStorage } from "src/common/utils";
-import { imageFileFilter } from "src/helper/imageFileFilter";
+import { AccessTokenGuard } from "../../guards";
+import { defaultUploadStorage } from "../../common/utils";
+import { imageFileFilter } from "../../helper/imageFileFilter";
 
 @Controller({
   path: "/upload",
