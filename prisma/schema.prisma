@@ -50,12 +50,11 @@ model User {
 }
 
 model Province {
-  id       Int          @id @default(autoincrement())
-  code     String
-  name     String
-  type     ProvinceType
-  parentId Int?
-
+  id                 Int          @id @default(autoincrement())
+  code               String
+  name               String
+  type               ProvinceType
+  parentId           Int?
   parent             Province?    @relation(name: "Parent", fields: [parentId], references: [id], map: "Province_parentId_fkey")
   children           Province[]   @relation(name: "Parent")
   RestaurantProvince Restaurant[] @relation(name: "province")
@@ -80,14 +79,6 @@ model Restaurant {
   Employee      Employee[]
   Bills         Bill[]
 }
-
-// model TableType {
-//   id               Int         @id @default(autoincrement())
-//   name             String
-//   description      String
-//   prePaymentAmount String
-//   TableFood        TableFood[]
-// }
 
 model TableFood {
   id               Int             @id @default(autoincrement())
@@ -182,14 +173,16 @@ model Bill {
 }
 
 model BillItem {
-  id         Int       @id @default(autoincrement())
-  itemId     Int
-  quantity   Int       @default(1)
-  totalPrice Float     @default(0)
-  billId     Int
-  createdAt  DateTime  @default(now())
-  Bill       Bill      @relation(fields: [billId], references: [id], map: "Bill_billitem_fkey")
-  MenuItem   MenuItem? @relation(fields: [itemId], references: [id], map: "BillItem_menuitem_fkey")
+  id           Int       @id @default(autoincrement())
+  itemId       Int
+  quantity     Int       @default(1)
+  totalPrice   Float     @default(0)
+  billId       Int
+  createdAt    DateTime  @default(now())
+  timeCreated  Float     @default(0)
+  Bill         Bill      @relation(fields: [billId], references: [id], map: "Bill_billitem_fkey")
+  MenuItem     MenuItem? @relation(fields: [itemId], references: [id], map: "BillItem_menuitem_fkey")
+  restaurantId Int?      @default(0)
 }
 
 model Customer {

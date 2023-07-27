@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsNumber } from "class-validator";
+import { IsNotEmpty, IsNumber, IsOptional } from "class-validator";
 
 export class CreateBillItemDto {
   @IsNumber()
@@ -17,4 +17,29 @@ export class CreateBillItemDto {
     message: "Dữ liệu đầu vào không hợp lệ"
   })
   quantity: number;
+  @IsNumber()
+  @IsOptional()
+  timeCreated: number;
+  @IsNumber()
+  @IsOptional()
+  restaurantId: number;
+}
+
+export class GetReportQuery {
+  @IsNumber()
+  @IsNotEmpty({
+    message: "Dữ liệu đầu vào không hợp lệ"
+  })
+  from: number;
+
+  @IsNumber()
+  @IsNotEmpty({
+    message: "Dữ liệu đầu vào không hợp lệ"
+  })
+  to: number;
+  @IsNumber()
+  @IsNotEmpty({
+    message: "Dữ liệu đầu vào không hợp lệ"
+  })
+  restaurant_id: number;
 }

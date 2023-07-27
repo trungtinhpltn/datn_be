@@ -1,6 +1,6 @@
-import { Body, Controller, Delete, Get, Param, Post, Put, UseGuards } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Param, Post, Put, UseGuards, Query } from "@nestjs/common";
 import { BillItemService } from "./bill-item.service";
-import { CreateBillItemDto } from "./dto/bill-item.dto";
+import { CreateBillItemDto, GetReportQuery } from "./dto/bill-item.dto";
 import { AccessTokenGuard } from "../../guards";
 
 @Controller({
@@ -20,6 +20,12 @@ export class BillItemController {
   @UseGuards(AccessTokenGuard)
   getById(@Param("id") id: number) {
     return this.billItemService.getById(id);
+  }
+
+  @Get("/getReport")
+  @UseGuards(AccessTokenGuard)
+  getReport(@Query() query: GetReportQuery) {
+    return this.billItemService.getReport(query);
   }
 
   @Post()

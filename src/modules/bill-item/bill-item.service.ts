@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable } from "@nestjs/common";
 import { PrismaService } from "../prisma/prisma.service";
-import { CreateBillItemDto } from "./dto/bill-item.dto";
+import { CreateBillItemDto, GetReportQuery } from "./dto/bill-item.dto";
 
 @Injectable()
 export class BillItemService {
@@ -14,6 +14,10 @@ export class BillItemService {
     return await this.prisma.billItem.findFirst({
       where: { id }
     });
+  }
+
+  async getReport(query: GetReportQuery) {
+    return true;
   }
 
   async create(data: CreateBillItemDto) {

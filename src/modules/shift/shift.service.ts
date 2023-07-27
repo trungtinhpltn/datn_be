@@ -92,7 +92,6 @@ export class ShiftService {
     const nextWeekFrom = new Date(date.setDate(nextWeekStart));
     const nextWeekTo = new Date(date.setDate(nextWeekStart + 6));
     const currentYear = nextWeekFrom.getFullYear();
-    console.log("createHisShift");
 
     const check = await this.hisShiftService.checkHisShiftExit({
       year: currentYear,

@@ -6,7 +6,6 @@ import { TransformInterceptor } from "./interceptors/interceptor.transform-respo
 import { HttpExceptionFilter } from "./filters/http-exception.filter";
 import { PrismaService } from "./modules/prisma/prisma.service";
 import * as bodyParser from "body-parser";
-import { hostname } from "os";
 
 const logger = new Logger("NestApplication");
 
@@ -36,7 +35,8 @@ async function bootstrap() {
   //   // credentials: true
   // });
 
-  await app.listen(configuration.port, "0.0.0.0");
+  // await app.listen(configuration.port, "0.0.0.0");
+  await app.listen(configuration.port);
 }
 
 bootstrap().then(() => logger.log(`Server running on port ${configuration.port}`));

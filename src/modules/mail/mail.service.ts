@@ -13,7 +13,7 @@ export class MailService {
       template: "./confirmation",
       context: {
         name: user.name,
-        url: `http://localhost:3000/${user.key}`
+        url: `https://mttfe-production.up.railway.app/${user.key}`
       }
     });
   }
@@ -37,7 +37,7 @@ export class MailService {
       template: "./confirmorder",
       context: {
         name: user.name,
-        url: `http://localhost:3000/${user.key}`
+        url: `https://mttfe-production.up.railway.app/${user.key}`
       }
     });
   }
