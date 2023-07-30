@@ -239,29 +239,26 @@ export class OrderService {
     return true;
   }
 
-  // async delete(id: number, query: any) {
-  //   const { key } = query;
-  //   if (!key) {
-  //     throw new BadRequestException("Đầu vào không hợp lệ.");
-  //   }
-  //   const check = await this.prisma.order.findFirst({
-  //     where: {
-  //       id: id,
-  //       confirm: false,
-  //       key
-  //     }
-  //   });
-  //   if (!check) {
-  //     throw new BadRequestException("Yêu cầu đã được xác nhận hoặc không tồn tại.");
-  //   }
-  //   await this.prisma.order.update({
-  //     where: { id },
-  //     data: {
-  //       isDelete: true
-  //     }
-  //   });
-  //   return true;
-  // }
+  async delete(id: number, query: any) {
+    const { key } = query;
+    if (!key) {
+      throw new BadRequestException("Đầu vào không hợp lệ.");
+    }
+    const check = await this.prisma.order.findFirst({
+      where: {
+        id: id,
+        confirm: false,
+        key
+      }
+    });
+    if (!check) {
+      throw new BadRequestException("Yêu cầu đã được xác nhận hoặc không tồn tại.");
+    }
+    await this.prisma.order.delete({
+      where: { id }
+    });
+    return true;
+  }
 
   async hideOrder(id: number) {
     await this.prisma.order.update({

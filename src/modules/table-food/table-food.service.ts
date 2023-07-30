@@ -112,7 +112,6 @@ export class TableFoodService {
         ...conditions
       }
     });
-
     let listTableOrder = await Promise.all(
       listTable.map(async (item) => {
         const listOrderByTable = await this.orderService.findByTableOrder({

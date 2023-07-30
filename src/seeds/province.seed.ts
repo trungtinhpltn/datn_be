@@ -4,7 +4,7 @@ import { PrismaService } from "../modules/prisma/prisma.service";
 import { BaseSeed } from "./common/base.seed";
 import DistrictData from "./data/district.json";
 import ProvinceData from "./data/province.json";
-import VillageData from "./data/village.json";
+// import VillageData from "./data/village.json";
 
 @Injectable()
 export class ProvinceSeed extends BaseSeed {
@@ -13,23 +13,11 @@ export class ProvinceSeed extends BaseSeed {
   }
 
   async checkRun(): Promise<boolean> {
-    const [province, district] = await Promise.all([
-      this.prisma.province.findFirst({
-        where: {
-          type: "TINH"
-        }
-      }),
-      this.prisma.province.findFirst({
-        where: {
-          type: "HUYEN"
-        }
-      }),
-      this.prisma.province.findFirst({
-        where: {
-          type: "XA"
-        }
-      })
-    ]);
+    const province = await this.prisma.province.findFirst({
+      where: {
+        type: "TINH"
+      }
+    });
     if (!province) return true;
     return false;
   }
@@ -75,29 +63,29 @@ export class ProvinceSeed extends BaseSeed {
         })
       ));
 
-    const dists = await this.prisma.province.findMany({ where: { type: "HUYEN" } });
+    // const dists = await this.prisma.province.findMany({ where: { type: "HUYEN" } });
 
-    let time = Math.round(dists.length / 10);
-    let start = 1;
-    do {
-      await Promise.all(
-        dists.slice((start - 1) * 10, start * 10)?.map((dis) => {
-          return this.prisma.province.createMany({
-            data: VillageData?.data
-              ?.filter((it) => it?.CapTren === +(dis?.code + ""))
-              ?.map((vill) => ({
-                code: vill?.MaDVHC + "",
-                name: vill?.Ten,
-                type: ProvinceType[vill?.Cap],
-                parentId: dis.id
-              }))
-          });
-        })
-      );
-      await new Promise((resolve) => setTimeout(() => resolve(1), 1500));
-      time--;
-      start++;
-    } while (time > 0);
+    // let time = Math.round(dists.length / 10);
+    // let start = 1;
+    // do {
+    //   await Promise.all(
+    //     dists.slice((start - 1) * 10, start * 10)?.map((dis) => {
+    //       return this.prisma.province.createMany({
+    //         data: VillageData?.data
+    //           ?.filter((it) => it?.CapTren === +(dis?.code + ""))
+    //           ?.map((vill) => ({
+    //             code: vill?.MaDVHC + "",
+    //             name: vill?.Ten,
+    //             type: ProvinceType[vill?.Cap],
+    //             parentId: dis.id
+    //           }))
+    //       });
+    //     })
+    //   );
+    //   await new Promise((resolve) => setTimeout(() => resolve(1), 1500));
+    //   time--;
+    //   start++;
+    // } while (time > 0);
 
     // ProvinceData?.data?.forEach(async (item) => {
     //   const pro = await this.prisma.province.findFirst({

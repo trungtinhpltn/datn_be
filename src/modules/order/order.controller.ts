@@ -48,9 +48,13 @@ export class OrderController {
   }
 
   @Put(":id")
-  @UseGuards(AccessTokenGuard)
   update(@Param("id") id: number, @Query() query: any, @Body() data: CreateOrderDto) {
     return this.orderService.update(id, query, data);
+  }
+
+  @Delete(":id")
+  delete(@Param("id") id: number, @Query() query: any) {
+    return this.orderService.delete(id, query);
   }
 
   @Put("/updateSelectTable/:id")
