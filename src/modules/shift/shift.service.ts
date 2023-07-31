@@ -1,9 +1,9 @@
-import { Injectable, Inject, forwardRef } from "@nestjs/common";
+import { Inject, Injectable, forwardRef } from "@nestjs/common";
+import { Cron } from "@nestjs/schedule";
 import { EmployeeService } from "../employee/employee.service";
+import { HisShiftService } from "../his-shift/his-shift.service";
 import { PrismaService } from "../prisma/prisma.service";
 import { CreateShiftDto, GetByUserIdQuery, GetHisShiftByRestaurant } from "./dto/shift.dto";
-import { HisShiftService } from "../his-shift/his-shift.service";
-import { Cron } from "@nestjs/schedule";
 
 @Injectable()
 export class ShiftService {
@@ -84,7 +84,7 @@ export class ShiftService {
     });
   }
 
-  @Cron("* 2 * * * 0")
+  @Cron("0 0 0 * * 0")
   async createHisShift() {
     const date = new Date();
     const num = date.getDate() - date.getDay();
