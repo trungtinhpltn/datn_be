@@ -138,6 +138,7 @@ model Order {
   email          String
   date           String
   time           String
+  dateTime       Float       @default(0)
   key            String      @unique(map: "Order_key")
   person         Int
   children       Int

@@ -19,7 +19,7 @@ export class TableFoodService {
   async find(query: GetTableFoodQuery) {
     const { q, status, restaurant_id } = query;
     const conditions = {};
-    await this.updateTableOrder();
+    await this.updateTableOrder(null, restaurant_id);
     if (q) {
       conditions["name"] = {
         contains: q
@@ -33,9 +33,6 @@ export class TableFoodService {
     }
     return this.prisma.tableFood.findMany({
       where: { ...conditions, isDelete: false },
-      include: {
-        Order: true
-      },
       orderBy: [
         {
           id: "asc"
@@ -97,13 +94,16 @@ export class TableFoodService {
     return plainToClass(TableFoodEnity, res);
   }
 
-  @Interval(60000 * 30)
-  async updateTableOrder(id?: number) {
+  @Interval(60000 * 10)
+  async updateTableOrder(id?: number, restaurantId?: number) {
     const conditions: any = {};
     if (id) {
       conditions["id"] = {
         in: [id]
       };
+    }
+    if (restaurantId) {
+      conditions["restaurantId"] = restaurantId;
     }
     const listTable = await this.prisma.tableFood.findMany({
       where: {
@@ -112,11 +112,13 @@ export class TableFoodService {
         ...conditions
       }
     });
+    const currentTime = new Date().getTime();
     let listTableOrder = await Promise.all(
       listTable.map(async (item) => {
         const listOrderByTable = await this.orderService.findByTableOrder({
           restaurant_id: item.restaurantId,
-          table_id: item.id
+          table_id: item.id,
+          currentTime
         });
         return { ...item, listOrderByTable };
       })
@@ -124,9 +126,7 @@ export class TableFoodService {
 
     listTableOrder = listTableOrder.map((item) => {
       const orderFind = item.listOrderByTable.find((or) => {
-        const currentTine = new Date().getTime();
-        const orderTime = new Date(or.date + " " + or.time.replace("h", "")).getTime();
-        if (orderTime - currentTine > 0 && Math.round((orderTime - currentTine) / 60000) <= 120) {
+        if (or.dateTime - currentTime > 0 && Math.round((or.dateTime - currentTime) / 60000) <= 60) {
           return true;
         }
         return false;

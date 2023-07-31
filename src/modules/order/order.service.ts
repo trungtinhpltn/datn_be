@@ -63,24 +63,34 @@ export class OrderService {
     };
   }
 
-  async findByTableOrder({ restaurant_id, table_id }: { table_id: number; restaurant_id: number }) {
+  async findByTableOrder({
+    restaurant_id,
+    table_id,
+    currentTime
+  }: {
+    table_id: number;
+    restaurant_id: number;
+    currentTime: number;
+  }) {
     const condition: any = {
       restaurantId: restaurant_id,
       isDelete: false
     };
 
-    condition["date"] = {
-      equals: new Date().toDateString()
-    };
     if (table_id) {
       condition["tableId"] = table_id;
     }
 
     return await this.prisma.order.findMany({
       where: {
+        dateTime: {
+          gte: currentTime
+        },
         ...condition
       },
-      orderBy: [{ time: "asc" }]
+      skip: 0,
+      take: 1,
+      orderBy: [{ dateTime: "asc" }]
     });
   }
 
@@ -123,8 +133,7 @@ export class OrderService {
     if (!order) {
       throw new BadRequestException("Yêu cầu không tồn tại.");
     }
-    const date = new Date(order.date).toDateString();
-    const dateOrder = new Date(date).getTime();
+    const dateOrder = new Date(new Date(order.date).toDateString()).getTime();
     const dateNow = new Date(new Date().toDateString()).getTime();
     if (dateOrder < dateNow) {
       throw new BadRequestException("Thời gian đặt đã kết thúc");
@@ -171,6 +180,7 @@ export class OrderService {
     if (!key) {
       throw new BadRequestException("Đã có lỗi xảy ra vui lòng thử lại sau");
     }
+    const dateTime = new Date(data.date + " " + data.time.replace("h", "")).getTime();
     const checkSpam = await this.prisma.order.findFirst({
       where: {
         email: data?.email,
@@ -191,6 +201,7 @@ export class OrderService {
           date: data?.date,
           time: data?.time,
           person: data?.person,
+          dateTime: dateTime,
           children: data?.children,
           restaurantId: data?.restaurantId,
           key
@@ -224,11 +235,8 @@ export class OrderService {
         oId: check.id
       }));
     await Promise.all([
-      this.prisma.order.update({
-        where: { id },
-        data: {
-          isDelete: true
-        }
+      this.prisma.order.delete({
+        where: { id }
       }),
       this.mailService.sendCancelOrder({
         email: check?.email,
@@ -261,11 +269,8 @@ export class OrderService {
   }
 
   async hideOrder(id: number) {
-    await this.prisma.order.update({
-      where: { id },
-      data: {
-        isDelete: true
-      }
+    await this.prisma.order.delete({
+      where: { id }
     });
   }
 
