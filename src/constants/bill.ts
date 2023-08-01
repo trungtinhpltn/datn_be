@@ -1,7 +1,6 @@
 export enum BillStatus {
   FREE = "FREE",
-  PENDING = "PENDING",
-  ACTIVE = "ACTIVE"
+  CONFIRM = "CONFIRM"
 }
 
 export enum PaymentMethod {
