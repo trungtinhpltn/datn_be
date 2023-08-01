@@ -1,5 +1,5 @@
 export enum BillStatus {
-  FREE = "FREE",
+  PENDING = "PENDING",
   CONFIRM = "CONFIRM"
 }
 
