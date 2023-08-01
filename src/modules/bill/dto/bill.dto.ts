@@ -14,7 +14,7 @@ export interface ICreateBill {
 export class GetBillQuery extends IQuery {
   @IsEnum(BillStatus)
   @IsOptional()
-  status: string;
+  status: BillStatus;
 
   @IsNumber()
   @IsNotEmpty({
