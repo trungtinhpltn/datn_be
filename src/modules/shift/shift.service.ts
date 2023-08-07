@@ -1,5 +1,5 @@
 import { Inject, Injectable, forwardRef } from "@nestjs/common";
-import { Cron } from "@nestjs/schedule";
+import { Cron, Interval } from "@nestjs/schedule";
 import { EmployeeService } from "../employee/employee.service";
 import { HisShiftService } from "../his-shift/his-shift.service";
 import { PrismaService } from "../prisma/prisma.service";
@@ -45,7 +45,6 @@ export class ShiftService {
         exits: false
       };
     });
-
     return data;
   }
 
@@ -84,11 +83,11 @@ export class ShiftService {
     });
   }
 
-  @Cron("0 0 0 * * 0")
+  @Cron("0 0 0 * * *")
   async createHisShift() {
     const date = new Date();
     const num = date.getDate() - date.getDay();
-    const nextWeekStart = num + 8;
+    const nextWeekStart = num + 1;
     const nextWeekFrom = new Date(date.setDate(nextWeekStart));
     const nextWeekTo = new Date(date.setDate(nextWeekStart + 6));
     const currentYear = nextWeekFrom.getFullYear();
@@ -122,7 +121,7 @@ export class ShiftService {
       startDate: nextWeekFrom.toDateString(),
       endDate: nextWeekTo.toDateString(),
       year: currentYear,
-      monday: item?.shift?.moday || [],
+      monday: item?.shift?.monday || [],
       tuesday: item?.shift?.tuesday || [],
       wednesday: item?.shift?.wednesday || [],
       thursday: item?.shift?.thursday || [],

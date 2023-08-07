@@ -17,7 +17,45 @@ export class BillItemService {
   }
 
   async getReport(query: GetReportQuery) {
-    return true;
+    const { from, to, restaurant_id } = query;
+    const res = await this.prisma.billItem.findMany({
+      where: {
+        AND: [
+          {
+            timeCreated: {
+              gte: from
+            }
+          },
+          {
+            timeCreated: {
+              lte: to
+            }
+          }
+        ],
+        restaurantId: restaurant_id
+      },
+      include: {
+        MenuItem: true
+      }
+    });
+    let data: any = {};
+    res.forEach((item) => {
+      if (data?.[item.itemId]) {
+        data[item.itemId] = {
+          ...data?.[item?.itemId],
+          quantity: data?.[item.itemId]?.quantity + item.quantity
+        };
+        return;
+      }
+      data[item?.itemId] = {
+        id: item?.itemId,
+        name: item?.MenuItem?.name,
+        quantity: item?.quantity
+      };
+    });
+    data = Object.keys(data)?.map((key) => ({ ...data?.[key] })) || [];
+    data.sort((a: any, b: any) => b.quantity - a.quantity);
+    return data?.slice(0, 10);
   }
 
   async create(data: CreateBillItemDto) {
