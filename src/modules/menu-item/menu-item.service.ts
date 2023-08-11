@@ -91,7 +91,8 @@ export class MenuItemService {
   async create(data: CreateMenuItemDto) {
     const nameUnique = await this.prisma.menuItem.count({
       where: {
-        name: data.name
+        name: data.name,
+        restaurantId: data.restaurantId
       }
     });
     if (nameUnique) {
